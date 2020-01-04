@@ -26,15 +26,15 @@ class ABOUT:
         local = tk.Frame(master)
         home = tk.Frame(master)
         # 使用字典的方式设置样式，一次修改多次使用
-        label_style = {"anchor": "ne", "side": tk.RIGHT, "padx": 50, "pady": 20}
+        label_style = {"anchor": "ne", "side": tk.RIGHT, "padx": 30, "pady": 20}
         about.pack(label_style)
         algorithm.pack(label_style)
         local.pack(label_style)
         home.pack(label_style)
 
-        self.about = tk.Label(about, text=NAME.about, font=("华康少女字体", 24))
-        self.algorithm = tk.Label(algorithm, text=NAME.algorithm, fg="blue", font=("华康少女字体", 24))
-        self.local = tk.Label(local, text=NAME.local, fg="blue", font=("华康少女字体", 24))
+        self.about = tk.Button(about, text=NAME.about, font=("华康少女字体", 24))
+        self.algorithm = tk.Label(algorithm, text=NAME.algorithm, fg="blue", font=("华康少女文字W5(P)", 24))
+        self.local = tk.Label(local, text=NAME.local, fg="blue", font=("华文楷体", 24))
         self.home = tk.Label(home, text=NAME.home, fg="blue", font=("Arial", 24))
 
         self.about.pack()
@@ -45,7 +45,7 @@ class ABOUT:
 
 root = tk.Tk()
 root.title("管理系统")
-root.geometry('1200x800+500+200')
+root.geometry('1000x670+500+200')
 app = ABOUT(root)
 root.mainloop()
 print("vz")

@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a5c1a90a-9112-4e79-bd06-6bb29e3f488b" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="a5c1a90a-9112-4e79-bd06-6bb29e3f488b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/PersonalizedTravelRecommendedSystem.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PersonalizedTravelRecommendedSystem.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/about_Interface.py" beforeDir="false" afterPath="$PROJECT_DIR$/views/about_Interface.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/algorithm_interface.py" beforeDir="false" afterPath="$PROJECT_DIR$/views/algorithm_interface.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/home_interface.py" beforeDir="false" afterPath="$PROJECT_DIR$/views/home_interface.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,31 +22,75 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1VrpWDGYYCNUIzSJDjTfHz2Y3x7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/views/home_interface.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.home_interface">
+    <configuration name="about_Interface" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PersonalizedTravelRecommendedSystem" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/views" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/views/about_Interface.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="algorithm_interface" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PersonalizedTravelRecommendedSystem" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/views" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/views/algorithm_interface.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="home_interface" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="PersonalizedTravelRecommendedSystem" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -47,7 +98,7 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\zxl19\Documents\Python\PersonalizedTravelRecommendedSystem\venv\Scripts\python.exe" />
+      <option name="SDK_HOME" value="$PROJECT_DIR$/../../py/t1/venv/bin/python" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/views" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -62,6 +113,29 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.home_interface" />
+      <item itemvalue="Python.about_Interface" />
+      <item itemvalue="Python.algorithm_interface" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.about_Interface" />
+        <item itemvalue="Python.algorithm_interface" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -77,13 +151,57 @@
       <workItem from="1578031472099" duration="7985000" />
       <workItem from="1578055640099" duration="5059000" />
       <workItem from="1578062849634" duration="2000" />
+      <workItem from="1578104992752" duration="2893000" />
+      <workItem from="1578109055322" duration="4082000" />
+      <workItem from="1578123995101" duration="1088000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="WindowStateProjectService">
+    <state x="424" y="203" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578105292142">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="424" y="203" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1578105292142" />
+    <state x="315" y="267" key="FileChooserDialogImpl" timestamp="1578105212387">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="315" y="267" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1578105212387" />
+    <state width="1358" height="304" key="GridCell.Tab.0.bottom" timestamp="1578124313328">
+      <screen x="0" y="23" width="1920" height="977" />
+    </state>
+    <state width="1358" height="304" key="GridCell.Tab.0.bottom/0.23.1920.977@0.23.1920.977" timestamp="1578124313328" />
+    <state width="1358" height="304" key="GridCell.Tab.0.center" timestamp="1578124313327">
+      <screen x="0" y="23" width="1920" height="977" />
+    </state>
+    <state width="1358" height="304" key="GridCell.Tab.0.center/0.23.1920.977@0.23.1920.977" timestamp="1578124313327" />
+    <state width="1358" height="304" key="GridCell.Tab.0.left" timestamp="1578124313327">
+      <screen x="0" y="23" width="1920" height="977" />
+    </state>
+    <state width="1358" height="304" key="GridCell.Tab.0.left/0.23.1920.977@0.23.1920.977" timestamp="1578124313327" />
+    <state width="1358" height="304" key="GridCell.Tab.0.right" timestamp="1578124313328">
+      <screen x="0" y="23" width="1920" height="977" />
+    </state>
+    <state width="1358" height="304" key="GridCell.Tab.0.right/0.23.1920.977@0.23.1920.977" timestamp="1578124313328" />
+    <state x="469" y="185" key="SettingsEditor" timestamp="1578109035265">
+      <screen x="0" y="23" width="1920" height="977" />
+    </state>
+    <state x="469" y="179" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1578105233757" />
+    <state x="469" y="185" key="SettingsEditor/0.23.1920.977@0.23.1920.977" timestamp="1578109035265" />
+    <state x="673" y="366" key="com.intellij.ide.util.TipDialog" timestamp="1578123995872">
+      <screen x="0" y="23" width="1920" height="977" />
+    </state>
+    <state x="673" y="366" key="com.intellij.ide.util.TipDialog/0.23.1920.977@0.23.1920.977" timestamp="1578123995872" />
+    <state x="682" y="268" width="670" height="676" key="search.everywhere.popup" timestamp="1578109600628">
+      <screen x="0" y="23" width="1920" height="977" />
+    </state>
+    <state x="682" y="268" width="670" height="676" key="search.everywhere.popup/0.23.1920.977@0.23.1920.977" timestamp="1578109600628" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/PersonalizedTravelRecommendedSystem$home_interface.coverage" NAME="home_interface Coverage Results" MODIFIED="1578062093115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/views" />
+    <SUITE FILE_PATH="coverage/PersonalizedTravelRecommendedSystem$algorithm_interface.coverage" NAME="algorithm_interface Coverage Results" MODIFIED="1578110461425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/views" />
+    <SUITE FILE_PATH="coverage/PersonalizedTravelRecommendedSystem$home_interface.coverage" NAME="home_interface Coverage Results" MODIFIED="1578124313306" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/views" />
+    <SUITE FILE_PATH="coverage/PersonalizedTravelRecommendedSystem$about_Interface.coverage" NAME="about_Interface Coverage Results" MODIFIED="1578124111999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/views" />
   </component>
 </project>
