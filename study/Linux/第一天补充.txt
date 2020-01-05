@@ -1,0 +1,9 @@
+cat file1 file2 > newfile	合并文件
+
+charp user 文件名	修改文件权限
+charp root 文件名	修改文件权限
+
+chown
+
+chmod	修改权限	r w x 
+	chmod 755 filename

@@ -1,0 +1,66 @@
+压缩解压缩
+
+	tar 打包解包
+		打包	tar -cvf new.tar *.* 空格 *.*
+		解包	tar -xvf *.tar
+	
+	gzip	压缩解压缩
+		gzip *.tar	压缩
+		gizp -d *.tar.gz
+		
+		-r	压缩所有子目录
+		
+	tar -zcvf *.tar.gz *.* 空格 *.*	压缩（抱含打包，一次性完成）
+	
+	tar -zxvf *.tar.gz	解压（包含解包，一次性完成）
+	
+		-c	指定路径
+	
+	bzip2	压缩解压
+		tar -jcvf *.tar.bz2 *.* 空格 *.*	压缩（抱含打包，一次性完成）
+	
+		tar -jxvf *.tar.bz2	解压（包含解包，一次性完成）
+		
+	zip unzip
+		zip *.zip *.* 空格 *.*	压缩
+		unzip -d [指定文件夹（可不选）] *.zip
+		
+	ln	建立文件链接
+		ln -s *.*源文件 *.*快捷方式		软连接，类似快捷方式
+		ln *.*源文件 *.*快捷方式		硬连接，类似快捷方式
+		
+	which	查看指令"bash"的绝对路径
+		例子 $ which bash
+		
+	whoami	查看当前用户（我是谁）
+	
+	who	显示当前所有登录我电脑的用户（显示所有登录的用户）
+	
+	exit 退出账户
+	
+	useradd	添加用户	或adduser
+		-d	指定用户登陆时的主目录，如过不使用该参数，系统自动在home
+			添加与用户名相同的目录为主目录
+		-m	自动建立目录
+		-g	指定组名称
+		
+	su	切换用户
+	
+	passwd 修改密码
+		sudo passwd user
+		
+	userdel	删除用户（并不会自动删除用户目录）
+		-r	同时删除目录
+		
+	sudo -s		获取管理员权限
+		用户前出现#号
+		
+	groupadd	groupdel	添加组，删除组
+	
+	usermod		修改用户所在组
+	
+	chomd	修改权限
+		
+	
+	
+	
