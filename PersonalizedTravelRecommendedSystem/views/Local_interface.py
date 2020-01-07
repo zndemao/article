@@ -11,7 +11,7 @@ if __name__ == '__main__':
     #
     w.move(300,300)
 
-    #
+    #/Users/cat/Documents/article/PersonalizedTravelRecommendedSystem/designer
     w.setWindowTitle('pyqt5')
     #
     w.show()
