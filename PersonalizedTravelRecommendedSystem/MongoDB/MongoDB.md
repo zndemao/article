@@ -1,0 +1,120 @@
+# MongoDB
+/**
+	此文档学习B站https://www.bilibili.com/video/av13930686?from=search&seid=4355451328344329010
+**/
+
+## 打开或创建一个数据库
+```
+mongod:
+    mongod --dbpath 路径/名字		//打开或创建一个数据库
+```
+此命令窗口不能关闭，否则无法访问数据库，
+
+```	
+mongoimpirt:	//导入数据库
+```
+```
+mongoimport --db test --collection user --drop --file C:\Users\zxl19\Documents\学习\mongo\documents.json
+mongoimport --db dbname --collection user --drop --file	path
+	-db	导入到那个库
+	-collection	导入到那个集合
+	-drop	加上表示 清空数据库
+	-file	要导入的 文件路径
+```
+```
+mongo:
+	use dbname	//创建一个新的数据库
+	show dbs	//查看所有数据库
+	show collections		//查看当前数据所有集合
+	db.collectionName.insert(obj)	//在名为collectionName的集合里插入一条文档，如果不存在，则创建新集合
+	db.collectionName.find()	查找名为collectionName集合的所有记录
+```
+	
+	增
+	db.collectionName.insert(obj)	//在名为collectionName的集合里插入一条文档，如果不存在，则新建改集合
+		db.user.insert({"name":"cat","age":17,"hobby":["eat","sleep"]})	
+		
+		
+	删
+	删库
+		db.dropDatabase() 删除你当前所在的数据库,所以你要先use到数据库
+	删集合
+		db.collectionName.drop()	删除集合，返回true成功
+			db.user.drop() 		删除集合名为 user 的集合
+	删文档
+		db.collectionName.remove({k: v})	将匹配到的k为v的文档删除
+			db.user.remove({name: "cat1"})	将匹配到的name为cat1的文档删除
+			db.user.remove({"name": "cat1"})	将匹配到的name为cat1的文档删除
+			
+		db.collectionName.remove({k: v}, {justOne: true})	将匹配到的k为v的文档删除，只删第一条
+			db.user.remove({name: "cat1"}, {justOne: true})	将匹配到的name为cat1的文档删除，只删第一条
+			db.user.remove({"name": "cat1"}, {justOne: true})	将匹配到的name为cat1的文档删除，只删第一条
+			
+		db.collectionName.remove()	删除集合里所有文档
+			db.user.remove()	删除 集合名为 user 里所有文档
+	
+		
+	改
+		修改文档
+		db.collectionName.update({k: v}, {$set: {k: new_v, k2: v2}})	将k为v的文档改为k1为v2，k为new_v。只改查到的第一条
+			db.user.update({"age":1}, {$set: {"age": 999}})		将age为1的文档改为age为999
+		
+		db.collectionName.update(
+			{k: v}, 
+				{
+					$set: {k: new_v, k2: v2},
+				}
+				{multi: true}
+			)				将k为v的文档改为k1为v2，k为new_v。修改查的所有
+			
+		替换文档
+		db.collectionName.update({k: v}, {k1: v1, k2: v2})		将k为v的文档改为k1为v2，k2为v2
+			db.user.update({"age":999}, {"age": 1})		将age为999的文档改为age为1,但其name将没有值
+			db.user.update({"age":1}, {"name":"cat1", "age": 1})	将age为1的文档改为name为cat1，age为1
+	
+	
+	查询	
+	db.collectionName.find({k: v})	查询k的值为v的文档
+		db.user.find({"age":3})		查询age为3的数据
+		db.user.find({age: 3})
+		
+	db.collectionName.find().limit(d)	查询前d条文档
+		db.user.find().limit(4)		查询前4条数据
+	db.collectionName.find().limit(d1).skip(d2)		查询d1条数据，从d2条后开始
+		db.user.find().limit(4).skip(4)		查询4条数据，从4条后开始，即 5 6 7 8
+		db.user.find().limit(3).skip(2)		查询3条数据，从2条后开始，即 3 4 5
+
+		
+	AND
+	db.collectionName.find({k1:v1,k2:v2})	查询 k1的值为v1 和 可k2的值为v2的文档 的文档
+		db.user.find({"name":"cat3","age":3})	查询name为cat3且age为3的数据
+		
+	OR
+		db.collectionName.find({$or: [{k1: v1},{k2: v2}]})	查询 k1的值为v1 或 可k2的值为v2的文档 的文档
+		db.user.find({$or :[{"name": "cat3"},{"age": 33}]})	查询name为cat3或age为33的数据
+		db.user.find({$or :[{"age":3},{"age": 33}]})	查询age为3 或 age为33 的数据
+	
+	大于>	小于<
+	db.collectionName.find({k: {$gt: number}})	查询k的值大于number的文档
+		db.user.find({"age": {$gt: 5}})		查询age的值大于95的文档
+	db.collectionName.find({"age": {$lt: number}})	查询k的值小于number的数据的文档
+		db.user.find({"age": {$lt: 5}})		查询age的值小于5的文档
+	db.user.find({age: {$gt: number1, $lt: number2}})	查询值大于number1小于number2的文档，即number1——number2
+		db.user.find({age: {$gt: 5, $lt: 10}})		查询值大于5小于10的文档，即5——10
+		
+	排序
+	db.user.find(}).sort({k: 1})	将查到的文档按k排序（升序）。按ASCII码
+	
+	db.user.find({k: {$lt: number}}).sort({k: 1})		将查到的文档按k排序（升序）。按ASCII码
+		db.user.find({age: {$lt: 11}}).sort({"age": 1})		将查到的文档按age排序（升序）。按ASCII码
+
+	db.user.find({k: {$lt: number}}).sort({k: -1})	将查到的文档按age排序（降序）。按ASCII码
+		db.user.find({age: {$lt: 11}}).sort({"age": -1})	将查到的文档按age排序（降序）。按ASCII码
+	
+	db.user.find({k: {$lt: number}}).sort({k1: 1},{k2: 1})		将查到的文档按k1排序（升序），如果k1相同按k2排序（升序）。按ascii码
+		db.user.find({age: {$lt: 11}}).sort({"age": 1},{"name": 1})		将查到的文档按age排序（升序），如果age相同按name排序（升序）。按ascii码
+			
+		
+
+		
+		

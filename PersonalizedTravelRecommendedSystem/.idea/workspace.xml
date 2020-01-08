@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5c1a90a-9112-4e79-bd06-6bb29e3f488b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/MD/article.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MD/python命名规范.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designer/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designer/test.ui" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/Local_interface.py" beforeDir="false" afterPath="$PROJECT_DIR$/views/Local_interface.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +41,10 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/MongoDB" />
+      <recent name="$PROJECT_DIR$/sql" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/MD" />
     </key>
@@ -191,6 +189,7 @@
       <workItem from="1578224170851" duration="909000" />
       <workItem from="1578394189275" duration="1006000" />
       <workItem from="1578400278142" duration="5649000" />
+      <workItem from="1578483050257" duration="2918000" />
     </task>
     <servers />
   </component>
@@ -241,10 +240,10 @@
     </state>
     <state x="469" y="179" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1578105233757" />
     <state x="469" y="185" key="SettingsEditor/0.23.1920.977@0.23.1920.977" timestamp="1578234561741" />
-    <state x="673" y="366" key="com.intellij.ide.util.TipDialog" timestamp="1578400286700">
+    <state x="673" y="366" key="com.intellij.ide.util.TipDialog" timestamp="1578483121871">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
-    <state x="673" y="366" key="com.intellij.ide.util.TipDialog/0.23.1920.977@0.23.1920.977" timestamp="1578400286700" />
+    <state x="673" y="366" key="com.intellij.ide.util.TipDialog/0.23.1920.977@0.23.1920.977" timestamp="1578483121871" />
     <state x="682" y="268" width="670" height="676" key="search.everywhere.popup" timestamp="1578109600628">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
