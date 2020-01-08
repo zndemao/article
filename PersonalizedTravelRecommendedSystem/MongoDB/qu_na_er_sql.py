@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import re
 # import pymysql
-import pymongo
+import pymongoß
 
 
 # 解析出每个城市及其该城市对应的url
@@ -75,30 +75,40 @@ def parse_page(city_name, parse_page_url):
         except:
             jd_xiaoliang = 0
         print('{0}  {1}  {2}  {3}  {4}'.format(jd_name, jd_jb, jd_jieshao, jd_price, jd_xiaoliang))
-        # mysql(city_name, jd_name, jd_jb, jd_jieshao, jd_price, jd_xiaoliang)
+        mysql(city_name, jd_name, jd_jb, jd_jieshao, jd_price, jd_xiaoliang)
 
 
 # 定义一个类，将连接MySQL的操作写入其中,使用的mongodb数据库
 
 class down_mongdb:
 
-    def __init__(self, city_name, Scenic_name, Scenic_level, Scenic_introduction, Scenic_price, Scenic_sales):
+    def __init__(self, city_name, scenic_name, scenic_level, scenic_introduction, scenic_price, scenic_sales):
         '''
         city_name, Scenic_name, Scenic_level, Scenic_Introduction, Scenic_price, Scenic_sales
         城市       景点名        景点等级        介绍                  价钱          销量
         '''
         self.city_name = city_name
-        self.Scenic_name = Scenic_name
-        self.Scenic_introduction = Scenic_introduction
-        self.Scenic_price = Scenic_price
-        self.Scenic_level = Scenic_level
-        self.Scenic_sales = Scenic_sales
+        self.scenic_name = scenic_name
+        self.scenic_introduction = scenic_introduction
+        self.scenic_price = scenic_price
+        self.scenic_level = scenic_level
+        self.scenic_price = scenic_sales
+
         myclient = pymongo.MongoClient("mongodb://localhost:27017/")
-        mydb = myclient["runoobdb"]
+        mydb = myclient["db_tourism"]
+        self.mycol = mydb["tourism_data"]
 
-        mycol = mydb["sites"]
-
-
+    # 保存数据到MySQL中
+    def save_mysql(self):
+        mydict = {"city": self.city_name, "scenic": self.scenic_name, "level": self.scenic_level,
+                  "introduction": self.scenic_introduction,
+                  "price": self.scenic_price,
+                  "sales": self.scenic_level}
+        try:
+            self.mycol.insert(mydict)
+            print('数据插入成功')
+        except:
+            print('数据插入错误')
 
 
 # 定义一个类，将连接MySQL的操作写入其中
@@ -133,10 +143,10 @@ class down_mongdb:
 #             print('数据插入错误')
 #
 #
-# def mysql(city_name, jd_name, jd_jb, jd_jieshao, jd_price, jd_xiaoliang):
-#     # 新建类，将数据保存在MySQL中
-#     down = down_mysql(city_name, jd_name, jd_jb, jd_jieshao, jd_price, jd_xiaoliang)
-#     down.save_mysql()
+def mysql(city_name, jd_name, jd_jb, jd_jieshao, jd_price, jd_xiaoliang):
+    # 新建类，将数据保存在MySQL中
+    down = down_mongdb(city_name, jd_name, jd_jb, jd_jieshao, jd_price, jd_xiaoliang)
+    down.save_mysql()
 
 
 if __name__ == '__main__':
