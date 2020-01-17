@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import re
 # import pymysql
-import pymongoß
+import pymongo
 
 
 # 解析出每个城市及其该城市对应的url
@@ -34,6 +34,8 @@ def city_page(city_name, city_url):
     # 这里选-2是有深意的，因为在选择每一页的地方倒一是下一页，而倒二则是尾页数
     page_num = int(page[-2].text)
     print('有%s页的数据' % page_num)
+
+    count = 0
     for i in range(1, page_num + 1):
         # 遍历得到某个城市中所有页数
         print('第%d页信息' % i)
@@ -41,6 +43,11 @@ def city_page(city_name, city_url):
         print('网页地址：', parse_page_url)
         # 将每一页的url都传递到parse_page中进行解析
         parse_page(city_name, parse_page_url)
+
+        count += 1
+        if (count == 10):
+            print(count)
+            break
 
 
 # 解析每个城市每一页的信息
@@ -89,10 +96,10 @@ class down_mongdb:
         '''
         self.city_name = city_name
         self.scenic_name = scenic_name
+        self.scenic_level = scenic_level
         self.scenic_introduction = scenic_introduction
         self.scenic_price = scenic_price
-        self.scenic_level = scenic_level
-        self.scenic_price = scenic_sales
+        self.scenic_sales = scenic_sales
 
         myclient = pymongo.MongoClient("mongodb://localhost:27017/")
         mydb = myclient["db_tourism"]
@@ -103,7 +110,7 @@ class down_mongdb:
         mydict = {"city": self.city_name, "scenic": self.scenic_name, "level": self.scenic_level,
                   "introduction": self.scenic_introduction,
                   "price": self.scenic_price,
-                  "sales": self.scenic_level}
+                  "sales": self.scenic_sales}
         try:
             self.mycol.insert(mydict)
             print('数据插入成功')

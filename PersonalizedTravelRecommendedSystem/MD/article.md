@@ -39,6 +39,37 @@ MinimumExpanding最小扩展     窗口控件的sizeHint提示的尺寸是最小
 Expanding       扩展	    窗口控件可以缩小到minisizeHint的尺寸，也可以比sizeHint的的尺寸大，但期望是更大
 Ignored	        忽略	    无视窗口控件的sizeHint与minisizeHint，按照默认来设置
 ```
+### 信号槽
+信号 signal    
+槽 slot   
+是由对象或控件发出的消息，当单机按钮时就会向外部发送单机的消息 这些发出去的信号需要代码来拦击，这些代码就是槽  
+槽本质上是一个函数或方法
+信号 可以理解为事件  
+槽 可以理解为事件函数  
+需要将信号和槽绑定，  
+一个信号可以和多个槽绑定，一个槽可以拦截多个信号
+
+### 主窗口
+1 QMainWindown 菜单栏，工具栏，状态了，标题栏，最常见的窗口形式，通常作为主窗口  
+2 QDialog    对话窗口的基类，没有菜单栏，工具栏，状态栏。例如新弹出的临时窗口   
+3 QWiget    不确定窗口的用途，就是用QWidget
+/Users/cat/Documents/article/PersonalizedTravelRecommendedSystem/designer
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ## 大数据

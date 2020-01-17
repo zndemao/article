@@ -2,22 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5c1a90a-9112-4e79-bd06-6bb29e3f488b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/PersonalizedTravelRecommendedSystem.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PersonalizedTravelRecommendedSystem.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/diagnostic.data/metrics.2020-01-09T04-58-25Z-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json/test - 副本.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json/test.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study/CenterForm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/example_Window_Jump.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MD/article.md" beforeDir="false" afterPath="$PROJECT_DIR$/MD/article.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MongoDB/qu_na_er_sql.py" beforeDir="false" afterPath="$PROJECT_DIR$/MongoDB/qu_na_er_sql.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/WiredTiger.turtle" beforeDir="false" afterPath="$PROJECT_DIR$/db/WiredTiger.turtle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/WiredTiger.wt" beforeDir="false" afterPath="$PROJECT_DIR$/db/WiredTiger.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/_mdb_catalog.wt" beforeDir="false" afterPath="$PROJECT_DIR$/db/_mdb_catalog.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/collection-2-8171593014615531089.wt" beforeDir="false" afterPath="$PROJECT_DIR$/db/collection-2-8171593014615531089.wt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/collection-4-8171593014615531089.wt" beforeDir="false" afterPath="$PROJECT_DIR$/db/collection-4-8171593014615531089.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/collection-8-8171593014615531089.wt" beforeDir="false" afterPath="$PROJECT_DIR$/db/collection-8-8171593014615531089.wt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/diagnostic.data/metrics.2020-01-08T12-49-36Z-00000" beforeDir="false" afterPath="$PROJECT_DIR$/db/diagnostic.data/metrics.2020-01-08T12-49-36Z-00000" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/diagnostic.data/metrics.interim" beforeDir="false" afterPath="$PROJECT_DIR$/db/diagnostic.data/metrics.interim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/index-3-8171593014615531089.wt" beforeDir="false" afterPath="$PROJECT_DIR$/db/index-3-8171593014615531089.wt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/index-5-8171593014615531089.wt" beforeDir="false" afterPath="$PROJECT_DIR$/db/index-5-8171593014615531089.wt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/index-6-8171593014615531089.wt" beforeDir="false" afterPath="$PROJECT_DIR$/db/index-6-8171593014615531089.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/index-9-8171593014615531089.wt" beforeDir="false" afterPath="$PROJECT_DIR$/db/index-9-8171593014615531089.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/journal/WiredTigerLog.0000000001" beforeDir="false" afterPath="$PROJECT_DIR$/db/journal/WiredTigerLog.0000000001" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/journal/WiredTigerLog.0000000001" beforeDir="false" afterPath="$PROJECT_DIR$/db/journal/WiredTigerLog.0000000002" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/mongod.lock" beforeDir="false" afterPath="$PROJECT_DIR$/db/mongod.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/sizeStorer.wt" beforeDir="false" afterPath="$PROJECT_DIR$/db/sizeStorer.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/designer/test.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +50,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/MD" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/views" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -53,41 +58,22 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/study" />
+      <recent name="$PROJECT_DIR$/json" />
       <recent name="$PROJECT_DIR$/MongoDB" />
       <recent name="$PROJECT_DIR$/sql" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/views" />
       <recent name="$PROJECT_DIR$/MD" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.qu_na_er_sql">
+  <component name="RunManager" selected="Python.example_Window_Jump">
     <configuration name="Local_interface" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PersonalizedTravelRecommendedSystem" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="/Library/Frameworks/Python.framework/Versions/3.8/bin/python3" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/views" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/views/Local_interface.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="about_Interface" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PersonalizedTravelRecommendedSystem" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -100,7 +86,73 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/views/about_Interface.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/views/Local_interface.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Run" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PersonalizedTravelRecommendedSystem" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/views" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/views/Run.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ScreenGeometry" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PersonalizedTravelRecommendedSystem" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/study" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/study/ScreenGeometry.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="example_Window_Jump" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PersonalizedTravelRecommendedSystem" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/views" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/views/example_Window_Jump.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -131,50 +183,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="qu_na_er_sql" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PersonalizedTravelRecommendedSystem" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="$USER_HOME$/opt/anaconda3/bin/python3.7" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MongoDB" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MongoDB/qu_na_er_sql.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="qu_na_er_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PersonalizedTravelRecommendedSystem" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MongoDB" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MongoDB/qu_na_er_test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PersonalizedTravelRecommendedSystem" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -183,12 +191,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MongoDB" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/study" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MongoDB/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/study/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -199,19 +207,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.home_interface" />
-      <item itemvalue="Python.about_Interface" />
-      <item itemvalue="Python.Local_interface" />
+      <item itemvalue="Python.ScreenGeometry" />
       <item itemvalue="Python.test" />
-      <item itemvalue="Python.qu_na_er_test" />
-      <item itemvalue="Python.qu_na_er_sql" />
+      <item itemvalue="Python.Local_interface" />
+      <item itemvalue="Python.Run" />
+      <item itemvalue="Python.example_Window_Jump" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.qu_na_er_sql" />
-        <item itemvalue="Python.qu_na_er_test" />
-        <item itemvalue="Python.test" />
+        <item itemvalue="Python.example_Window_Jump" />
+        <item itemvalue="Python.Run" />
         <item itemvalue="Python.Local_interface" />
-        <item itemvalue="Python.about_Interface" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.ScreenGeometry" />
       </list>
     </recent_temporary>
   </component>
@@ -253,6 +261,16 @@
       <workItem from="1578394189275" duration="1006000" />
       <workItem from="1578400278142" duration="5649000" />
       <workItem from="1578483050257" duration="10123000" />
+      <workItem from="1578570952494" duration="1864000" />
+      <workItem from="1578654905900" duration="676000" />
+      <workItem from="1578660309958" duration="4654000" />
+      <workItem from="1579090788437" duration="708000" />
+      <workItem from="1579175107513" duration="1861000" />
+      <workItem from="1579177298075" duration="565000" />
+      <workItem from="1579177930479" duration="580000" />
+      <workItem from="1579178602732" duration="1634000" />
+      <workItem from="1579180848784" duration="1973000" />
+      <workItem from="1579259062663" duration="7015000" />
     </task>
     <servers />
   </component>
@@ -260,6 +278,14 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="-1358" y="171" key="#HTTP_Proxy" timestamp="1579177641536">
+      <screen x="-1920" y="23" width="1920" height="1057" />
+    </state>
+    <state x="-1358" y="171" key="#HTTP_Proxy/0.23.1920.977/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1579177641536" />
+    <state x="-1360" y="218" key="#Notifications" timestamp="1579178757790">
+      <screen x="-1920" y="23" width="1920" height="1057" />
+    </state>
+    <state x="-1360" y="218" key="#Notifications/0.23.1920.977/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1579178757790" />
     <state x="424" y="207" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578494833405">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
@@ -269,56 +295,93 @@
       <screen x="0" y="23" width="1920" height="977" />
     </state>
     <state x="748" y="259" key="#com.intellij.ide.macro.MacrosDialog/0.23.1920.977@0.23.1920.977" timestamp="1578146655626" />
-    <state x="726" y="392" width="471" height="467" key="#com.intellij.tools.ToolEditorDialog" timestamp="1578146817041">
+    <state x="-1222" y="307" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1579268645704">
+      <screen x="-1920" y="23" width="1920" height="1057" />
+    </state>
+    <state x="-1222" y="307" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1920.977/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1579268645704" />
+    <state x="726" y="392" width="471" height="467" key="#com.intellij.tools.ToolEditorDialog" timestamp="1579090918688">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
-    <state x="726" y="392" width="471" height="467" key="#com.intellij.tools.ToolEditorDialog/0.23.1920.977@0.23.1920.977" timestamp="1578146817041" />
+    <state x="726" y="392" width="471" height="467" key="#com.intellij.tools.ToolEditorDialog/0.23.1920.977@0.23.1920.977" timestamp="1579090918688" />
     <state x="315" y="265" key="FileChooserDialogImpl" timestamp="1578140418966">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
     <state x="315" y="267" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1578105212387" />
     <state x="315" y="265" key="FileChooserDialogImpl/0.23.1920.977@0.23.1920.977" timestamp="1578140418966" />
-    <state width="1878" height="304" key="GridCell.Tab.0.bottom" timestamp="1578495882307">
-      <screen x="0" y="23" width="1920" height="977" />
+    <state width="1878" height="275" key="GridCell.Tab.0.bottom" timestamp="1579268654871">
+      <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
     <state width="1878" height="304" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1578144463566" />
-    <state width="1878" height="304" key="GridCell.Tab.0.bottom/0.23.1920.977@0.23.1920.977" timestamp="1578495882307" />
-    <state width="1878" height="304" key="GridCell.Tab.0.center" timestamp="1578495882307">
-      <screen x="0" y="23" width="1920" height="977" />
+    <state width="1878" height="275" key="GridCell.Tab.0.bottom/0.23.1920.977/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1579268654871" />
+    <state width="1878" height="275" key="GridCell.Tab.0.bottom/0.23.1920.977/0.-1057.1920.1057@0.23.1920.977" timestamp="1579264106197" />
+    <state width="1878" height="275" key="GridCell.Tab.0.bottom/0.23.1920.977@0.23.1920.977" timestamp="1579259945349" />
+    <state width="1878" height="275" key="GridCell.Tab.0.center" timestamp="1579268654870">
+      <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
     <state width="1878" height="304" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1578144463565" />
-    <state width="1878" height="304" key="GridCell.Tab.0.center/0.23.1920.977@0.23.1920.977" timestamp="1578495882307" />
-    <state width="1878" height="304" key="GridCell.Tab.0.left" timestamp="1578495882307">
-      <screen x="0" y="23" width="1920" height="977" />
+    <state width="1878" height="275" key="GridCell.Tab.0.center/0.23.1920.977/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1579268654870" />
+    <state width="1878" height="275" key="GridCell.Tab.0.center/0.23.1920.977/0.-1057.1920.1057@0.23.1920.977" timestamp="1579264106195" />
+    <state width="1878" height="275" key="GridCell.Tab.0.center/0.23.1920.977@0.23.1920.977" timestamp="1579259945347" />
+    <state width="1878" height="275" key="GridCell.Tab.0.left" timestamp="1579268654869">
+      <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
     <state width="1878" height="304" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1578144463564" />
-    <state width="1878" height="304" key="GridCell.Tab.0.left/0.23.1920.977@0.23.1920.977" timestamp="1578495882307" />
-    <state width="1878" height="304" key="GridCell.Tab.0.right" timestamp="1578495882307">
-      <screen x="0" y="23" width="1920" height="977" />
+    <state width="1878" height="275" key="GridCell.Tab.0.left/0.23.1920.977/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1579268654869" />
+    <state width="1878" height="275" key="GridCell.Tab.0.left/0.23.1920.977/0.-1057.1920.1057@0.23.1920.977" timestamp="1579264106194" />
+    <state width="1878" height="275" key="GridCell.Tab.0.left/0.23.1920.977@0.23.1920.977" timestamp="1579259945345" />
+    <state width="1878" height="275" key="GridCell.Tab.0.right" timestamp="1579268654870">
+      <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
     <state width="1878" height="304" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1578144463566" />
-    <state width="1878" height="304" key="GridCell.Tab.0.right/0.23.1920.977@0.23.1920.977" timestamp="1578495882307" />
-    <state x="448" y="278" key="SettingsEditor" timestamp="1578494933335">
-      <screen x="0" y="23" width="1920" height="977" />
+    <state width="1878" height="275" key="GridCell.Tab.0.right/0.23.1920.977/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1579268654870" />
+    <state width="1878" height="275" key="GridCell.Tab.0.right/0.23.1920.977/0.-1057.1920.1057@0.23.1920.977" timestamp="1579264106196" />
+    <state width="1878" height="275" key="GridCell.Tab.0.right/0.23.1920.977@0.23.1920.977" timestamp="1579259945348" />
+    <state width="1878" height="325" key="GridCell.Tab.1.bottom" timestamp="1578665339651">
+      <screen x="-1920" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="325" key="GridCell.Tab.1.bottom/0.23.1920.977/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1578665339651" />
+    <state width="1878" height="325" key="GridCell.Tab.1.center" timestamp="1578665339650">
+      <screen x="-1920" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="325" key="GridCell.Tab.1.center/0.23.1920.977/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1578665339650" />
+    <state width="1878" height="325" key="GridCell.Tab.1.left" timestamp="1578665339649">
+      <screen x="-1920" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="325" key="GridCell.Tab.1.left/0.23.1920.977/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1578665339649" />
+    <state width="1878" height="325" key="GridCell.Tab.1.right" timestamp="1578665339651">
+      <screen x="-1920" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="325" key="GridCell.Tab.1.right/0.23.1920.977/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1578665339651" />
+    <state x="-1449" y="143" key="SettingsEditor" timestamp="1579265175814">
+      <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
     <state x="469" y="179" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1578105233757" />
-    <state x="448" y="278" key="SettingsEditor/0.23.1920.977@0.23.1920.977" timestamp="1578494933335" />
-    <state x="673" y="366" key="com.intellij.ide.util.TipDialog" timestamp="1578483121871">
+    <state x="-1449" y="143" key="SettingsEditor/0.23.1920.977/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1579265175814" />
+    <state x="552" y="202" key="SettingsEditor/0.23.1920.977@0.23.1920.977" timestamp="1579259156054" />
+    <state x="673" y="366" key="com.intellij.ide.util.TipDialog" timestamp="1579259062755">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
-    <state x="673" y="366" key="com.intellij.ide.util.TipDialog/0.23.1920.977@0.23.1920.977" timestamp="1578483121871" />
+    <state x="-1247" y="394" key="com.intellij.ide.util.TipDialog/0.23.1920.977/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1579180928088" />
+    <state x="673" y="366" key="com.intellij.ide.util.TipDialog/0.23.1920.977/-1920.23.1920.1057@0.23.1920.977" timestamp="1578660314913" />
+    <state x="673" y="366" key="com.intellij.ide.util.TipDialog/0.23.1920.977@0.23.1920.977" timestamp="1579259062755" />
     <state x="682" y="268" width="670" height="676" key="search.everywhere.popup" timestamp="1578109600628">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
     <state x="682" y="268" width="670" height="676" key="search.everywhere.popup/0.23.1920.977@0.23.1920.977" timestamp="1578109600628" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/PersonalizedTravelRecommendedSystem$qu_na_er_sql.coverage" NAME="qu_na_er_sql Coverage Results" MODIFIED="1578495697190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MongoDB" />
-    <SUITE FILE_PATH="coverage/PersonalizedTravelRecommendedSystem$algorithm_interface.coverage" NAME="algorithm_interface Coverage Results" MODIFIED="1578110461425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/views" />
+    <SUITE FILE_PATH="coverage/PersonalizedTravelRecommendedSystem$qu_na_er_sql.coverage" NAME="qu_na_er_sql Coverage Results" MODIFIED="1578661828496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MongoDB" />
+    <SUITE FILE_PATH="coverage/PersonalizedTravelRecommendedSystem$Run.coverage" NAME="Run Coverage Results" MODIFIED="1579265125838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/views" />
+    <SUITE FILE_PATH="coverage/PersonalizedTravelRecommendedSystem$QuitApplication.coverage" NAME="QuitApplication Coverage Results" MODIFIED="1578664152988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study" />
     <SUITE FILE_PATH="coverage/PersonalizedTravelRecommendedSystem$home_interface.coverage" NAME="home_interface Coverage Results" MODIFIED="1578131773238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/views" />
-    <SUITE FILE_PATH="coverage/PersonalizedTravelRecommendedSystem$test.coverage" NAME="test Coverage Results" MODIFIED="1578491646057" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MongoDB" />
+    <SUITE FILE_PATH="coverage/PersonalizedTravelRecommendedSystem$CenterForm.coverage" NAME="CenterForm Coverage Results" MODIFIED="1578663029504" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/views" />
     <SUITE FILE_PATH="coverage/PersonalizedTravelRecommendedSystem$qu_na_er_test.coverage" NAME="qu_na_er_test Coverage Results" MODIFIED="1578495691105" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MongoDB" />
-    <SUITE FILE_PATH="coverage/PersonalizedTravelRecommendedSystem$Local_interface.coverage" NAME="Local_interface Coverage Results" MODIFIED="1578489198370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/views" />
+    <SUITE FILE_PATH="coverage/PersonalizedTravelRecommendedSystem$Local_interface.coverage" NAME="Local_interface Coverage Results" MODIFIED="1579175925829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/views" />
     <SUITE FILE_PATH="coverage/PersonalizedTravelRecommendedSystem$about_Interface.coverage" NAME="about_Interface Coverage Results" MODIFIED="1578124111999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/views" />
+    <SUITE FILE_PATH="coverage/PersonalizedTravelRecommendedSystem$example_Window_Jump.coverage" NAME="example_Window_Jump Coverage Results" MODIFIED="1579268654861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/views" />
+    <SUITE FILE_PATH="coverage/PersonalizedTravelRecommendedSystem$algorithm_interface.coverage" NAME="algorithm_interface Coverage Results" MODIFIED="1578110461425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/views" />
+    <SUITE FILE_PATH="coverage/PersonalizedTravelRecommendedSystem$ScreenGeometry.coverage" NAME="ScreenGeometry Coverage Results" MODIFIED="1578664699498" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study" />
+    <SUITE FILE_PATH="coverage/PersonalizedTravelRecommendedSystem$FirstMainWin.coverage" NAME="FirstMainWin Coverage Results" MODIFIED="1578662986348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/views" />
+    <SUITE FILE_PATH="coverage/PersonalizedTravelRecommendedSystem$test.coverage" NAME="test Coverage Results" MODIFIED="1579175906296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study" />
   </component>
 </project>
