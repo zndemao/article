@@ -2,27 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5c1a90a-9112-4e79-bd06-6bb29e3f488b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/db/diagnostic.data/metrics.2020-01-09T04-58-25Z-00000" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/json/test - 副本.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/json/test.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study/CenterForm.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/example_Window_Jump.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MD/article.md" beforeDir="false" afterPath="$PROJECT_DIR$/MD/article.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MongoDB/qu_na_er_sql.py" beforeDir="false" afterPath="$PROJECT_DIR$/MongoDB/qu_na_er_sql.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/WiredTiger.turtle" beforeDir="false" afterPath="$PROJECT_DIR$/db/WiredTiger.turtle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/WiredTiger.wt" beforeDir="false" afterPath="$PROJECT_DIR$/db/WiredTiger.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/collection-2-8171593014615531089.wt" beforeDir="false" afterPath="$PROJECT_DIR$/db/collection-2-8171593014615531089.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/collection-4-8171593014615531089.wt" beforeDir="false" afterPath="$PROJECT_DIR$/db/collection-4-8171593014615531089.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/diagnostic.data/metrics.2020-01-08T12-49-36Z-00000" beforeDir="false" afterPath="$PROJECT_DIR$/db/diagnostic.data/metrics.2020-01-08T12-49-36Z-00000" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/diagnostic.data/metrics.interim" beforeDir="false" afterPath="$PROJECT_DIR$/db/diagnostic.data/metrics.interim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/index-3-8171593014615531089.wt" beforeDir="false" afterPath="$PROJECT_DIR$/db/index-3-8171593014615531089.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/index-5-8171593014615531089.wt" beforeDir="false" afterPath="$PROJECT_DIR$/db/index-5-8171593014615531089.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/index-6-8171593014615531089.wt" beforeDir="false" afterPath="$PROJECT_DIR$/db/index-6-8171593014615531089.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/journal/WiredTigerLog.0000000001" beforeDir="false" afterPath="$PROJECT_DIR$/db/journal/WiredTigerLog.0000000002" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/mongod.lock" beforeDir="false" afterPath="$PROJECT_DIR$/db/mongod.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/sizeStorer.wt" beforeDir="false" afterPath="$PROJECT_DIR$/db/sizeStorer.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/example_Window_Jump.py" beforeDir="false" afterPath="$PROJECT_DIR$/views/example_Window_Jump.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -270,7 +251,8 @@
       <workItem from="1579177930479" duration="580000" />
       <workItem from="1579178602732" duration="1634000" />
       <workItem from="1579180848784" duration="1973000" />
-      <workItem from="1579259062663" duration="7015000" />
+      <workItem from="1579259062663" duration="8301000" />
+      <workItem from="1579358820538" duration="2008000" />
     </task>
     <servers />
   </component>
@@ -308,34 +290,34 @@
     </state>
     <state x="315" y="267" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1578105212387" />
     <state x="315" y="265" key="FileChooserDialogImpl/0.23.1920.977@0.23.1920.977" timestamp="1578140418966" />
-    <state width="1878" height="275" key="GridCell.Tab.0.bottom" timestamp="1579268654871">
-      <screen x="-1920" y="23" width="1920" height="1057" />
+    <state width="1878" height="249" key="GridCell.Tab.0.bottom" timestamp="1579360846294">
+      <screen x="0" y="23" width="1920" height="977" />
     </state>
     <state width="1878" height="304" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1578144463566" />
-    <state width="1878" height="275" key="GridCell.Tab.0.bottom/0.23.1920.977/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1579268654871" />
+    <state width="1878" height="275" key="GridCell.Tab.0.bottom/0.23.1920.977/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1579269962439" />
     <state width="1878" height="275" key="GridCell.Tab.0.bottom/0.23.1920.977/0.-1057.1920.1057@0.23.1920.977" timestamp="1579264106197" />
-    <state width="1878" height="275" key="GridCell.Tab.0.bottom/0.23.1920.977@0.23.1920.977" timestamp="1579259945349" />
-    <state width="1878" height="275" key="GridCell.Tab.0.center" timestamp="1579268654870">
-      <screen x="-1920" y="23" width="1920" height="1057" />
+    <state width="1878" height="249" key="GridCell.Tab.0.bottom/0.23.1920.977@0.23.1920.977" timestamp="1579360846294" />
+    <state width="1878" height="249" key="GridCell.Tab.0.center" timestamp="1579360846293">
+      <screen x="0" y="23" width="1920" height="977" />
     </state>
     <state width="1878" height="304" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1578144463565" />
-    <state width="1878" height="275" key="GridCell.Tab.0.center/0.23.1920.977/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1579268654870" />
+    <state width="1878" height="275" key="GridCell.Tab.0.center/0.23.1920.977/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1579269962438" />
     <state width="1878" height="275" key="GridCell.Tab.0.center/0.23.1920.977/0.-1057.1920.1057@0.23.1920.977" timestamp="1579264106195" />
-    <state width="1878" height="275" key="GridCell.Tab.0.center/0.23.1920.977@0.23.1920.977" timestamp="1579259945347" />
-    <state width="1878" height="275" key="GridCell.Tab.0.left" timestamp="1579268654869">
-      <screen x="-1920" y="23" width="1920" height="1057" />
+    <state width="1878" height="249" key="GridCell.Tab.0.center/0.23.1920.977@0.23.1920.977" timestamp="1579360846293" />
+    <state width="1878" height="249" key="GridCell.Tab.0.left" timestamp="1579360846293">
+      <screen x="0" y="23" width="1920" height="977" />
     </state>
     <state width="1878" height="304" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1578144463564" />
-    <state width="1878" height="275" key="GridCell.Tab.0.left/0.23.1920.977/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1579268654869" />
+    <state width="1878" height="275" key="GridCell.Tab.0.left/0.23.1920.977/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1579269962437" />
     <state width="1878" height="275" key="GridCell.Tab.0.left/0.23.1920.977/0.-1057.1920.1057@0.23.1920.977" timestamp="1579264106194" />
-    <state width="1878" height="275" key="GridCell.Tab.0.left/0.23.1920.977@0.23.1920.977" timestamp="1579259945345" />
-    <state width="1878" height="275" key="GridCell.Tab.0.right" timestamp="1579268654870">
-      <screen x="-1920" y="23" width="1920" height="1057" />
+    <state width="1878" height="249" key="GridCell.Tab.0.left/0.23.1920.977@0.23.1920.977" timestamp="1579360846293" />
+    <state width="1878" height="249" key="GridCell.Tab.0.right" timestamp="1579360846294">
+      <screen x="0" y="23" width="1920" height="977" />
     </state>
     <state width="1878" height="304" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1578144463566" />
-    <state width="1878" height="275" key="GridCell.Tab.0.right/0.23.1920.977/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1579268654870" />
+    <state width="1878" height="275" key="GridCell.Tab.0.right/0.23.1920.977/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1579269962438" />
     <state width="1878" height="275" key="GridCell.Tab.0.right/0.23.1920.977/0.-1057.1920.1057@0.23.1920.977" timestamp="1579264106196" />
-    <state width="1878" height="275" key="GridCell.Tab.0.right/0.23.1920.977@0.23.1920.977" timestamp="1579259945348" />
+    <state width="1878" height="249" key="GridCell.Tab.0.right/0.23.1920.977@0.23.1920.977" timestamp="1579360846294" />
     <state width="1878" height="325" key="GridCell.Tab.1.bottom" timestamp="1578665339651">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
@@ -358,12 +340,12 @@
     <state x="469" y="179" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1578105233757" />
     <state x="-1449" y="143" key="SettingsEditor/0.23.1920.977/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1579265175814" />
     <state x="552" y="202" key="SettingsEditor/0.23.1920.977@0.23.1920.977" timestamp="1579259156054" />
-    <state x="673" y="366" key="com.intellij.ide.util.TipDialog" timestamp="1579259062755">
+    <state x="673" y="366" key="com.intellij.ide.util.TipDialog" timestamp="1579358837462">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
     <state x="-1247" y="394" key="com.intellij.ide.util.TipDialog/0.23.1920.977/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1579180928088" />
     <state x="673" y="366" key="com.intellij.ide.util.TipDialog/0.23.1920.977/-1920.23.1920.1057@0.23.1920.977" timestamp="1578660314913" />
-    <state x="673" y="366" key="com.intellij.ide.util.TipDialog/0.23.1920.977@0.23.1920.977" timestamp="1579259062755" />
+    <state x="673" y="366" key="com.intellij.ide.util.TipDialog/0.23.1920.977@0.23.1920.977" timestamp="1579358837462" />
     <state x="682" y="268" width="670" height="676" key="search.everywhere.popup" timestamp="1578109600628">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
@@ -378,7 +360,7 @@
     <SUITE FILE_PATH="coverage/PersonalizedTravelRecommendedSystem$qu_na_er_test.coverage" NAME="qu_na_er_test Coverage Results" MODIFIED="1578495691105" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MongoDB" />
     <SUITE FILE_PATH="coverage/PersonalizedTravelRecommendedSystem$Local_interface.coverage" NAME="Local_interface Coverage Results" MODIFIED="1579175925829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/views" />
     <SUITE FILE_PATH="coverage/PersonalizedTravelRecommendedSystem$about_Interface.coverage" NAME="about_Interface Coverage Results" MODIFIED="1578124111999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/views" />
-    <SUITE FILE_PATH="coverage/PersonalizedTravelRecommendedSystem$example_Window_Jump.coverage" NAME="example_Window_Jump Coverage Results" MODIFIED="1579268654861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/views" />
+    <SUITE FILE_PATH="coverage/PersonalizedTravelRecommendedSystem$example_Window_Jump.coverage" NAME="example_Window_Jump Coverage Results" MODIFIED="1579360774356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/views" />
     <SUITE FILE_PATH="coverage/PersonalizedTravelRecommendedSystem$algorithm_interface.coverage" NAME="algorithm_interface Coverage Results" MODIFIED="1578110461425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/views" />
     <SUITE FILE_PATH="coverage/PersonalizedTravelRecommendedSystem$ScreenGeometry.coverage" NAME="ScreenGeometry Coverage Results" MODIFIED="1578664699498" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/study" />
     <SUITE FILE_PATH="coverage/PersonalizedTravelRecommendedSystem$FirstMainWin.coverage" NAME="FirstMainWin Coverage Results" MODIFIED="1578662986348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/views" />

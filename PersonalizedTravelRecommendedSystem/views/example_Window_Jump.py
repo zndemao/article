@@ -12,7 +12,18 @@ from PyQt5.QtWidgets import QApplication, QMainWindow, QMessageBox, QDialog
 from PyQt5 import QtCore, QtGui, QtWidgets
 from distributed.utils import palette
 from PyQt5.QtCore import Qt
-from designer import home, login
+from designer import home, login,registered
+from views import Registered_Dialog
+
+# class Registered_Dialog(QDialog):
+#     def __init__(self):
+#         QDialog.__init__(self)
+#         self.registered_Dialog = registered.Ui_Dialog()
+#         self.registered_Dialog.setupUi(self)
+#         # self.setWindowFlags(Qt.WindowStaysOnTopHint)  # 屏蔽父亲窗口操作
+#
+
+
 
 
 class Chikd_Window(QDialog):
@@ -22,6 +33,7 @@ class Chikd_Window(QDialog):
         self.login_window.setupUi(self)
         self.setWindowFlags(Qt.WindowStaysOnTopHint)  # 屏蔽父亲窗口操作
 
+        # self.dialog = Registered_Dialog.Registered_Dialog()
         # 按键操作
         self.login_window.login_close.clicked.connect(self.close)
         self.login_window.login_login_button.clicked.connect(self.user_login)
@@ -44,6 +56,12 @@ class Chikd_Window(QDialog):
     # 注册
     def registered(self):
         print('on registered button')
+        # 打开登陆窗口
+        self.dialog = Registered_Dialog.Registered_Dialog()
+        self.dialog.show()
+        # 关闭登陆窗口
+        self.reject()  # 关闭窗口
+
         pass
 
     # 忘记密码
