@@ -13,7 +13,7 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 from distributed.utils import palette
 from PyQt5.QtCore import Qt
 from designer import home, login,registered
-from views import Registered_Dialog
+from views import Registered_Dialog,Forget_Password_Dialog
 
 # class Registered_Dialog(QDialog):
 #     def __init__(self):
@@ -67,6 +67,15 @@ class Chikd_Window(QDialog):
     # 忘记密码
     def forget_password(self):
         print('on forget password')
+        # Forget_Password_Dialog.Forget_PassWord().show()
+        # 打开忘记密码子窗口
+        self.forget_password = Forget_Password_Dialog.Forget_PassWord()
+        self.forget_password.show()
+        # print(self.forget_password)
+        # forget_password2 = Forget_Password_Dialog.Forget_PassWord()
+        # forget_password2.show()
+        # print(forget_password2)
+        self.reject()
         pass
 
 
