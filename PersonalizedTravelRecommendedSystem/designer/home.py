@@ -2,13 +2,11 @@
 
 # Form implementation generated from reading ui file 'home.ui'
 #
-# Created by: PyQt5 UI code generator 5.14.0
+# Created by: PyQt5 UI code generator 5.9.2
 #
 # WARNING! All changes made in this file will be lost!
 
-
 from PyQt5 import QtCore, QtGui, QtWidgets
-
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
@@ -104,6 +102,21 @@ class Ui_MainWindow(object):
         self.labeltest = QtWidgets.QLabel(self.centralwidget)
         self.labeltest.setGeometry(QtCore.QRect(420, 180, 60, 16))
         self.labeltest.setObjectName("labeltest")
+        self.login_but = QtWidgets.QPushButton(self.centralwidget)
+        self.login_but.setGeometry(QtCore.QRect(30, 80, 120, 80))
+        self.login_but.setObjectName("login_but")
+        self.pushButton_2 = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton_2.setGeometry(QtCore.QRect(30, 150, 120, 80))
+        self.pushButton_2.setObjectName("pushButton_2")
+        self.pushButton_3 = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton_3.setGeometry(QtCore.QRect(30, 220, 120, 80))
+        self.pushButton_3.setObjectName("pushButton_3")
+        self.pushButton_4 = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton_4.setGeometry(QtCore.QRect(30, 290, 120, 80))
+        self.pushButton_4.setObjectName("pushButton_4")
+        self.pushButton_5 = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton_5.setGeometry(QtCore.QRect(30, 360, 120, 80))
+        self.pushButton_5.setObjectName("pushButton_5")
         MainWindow.setCentralWidget(self.centralwidget)
         self.statusbar = QtWidgets.QStatusBar(MainWindow)
         self.statusbar.setObjectName("statusbar")
@@ -122,5 +135,9 @@ class Ui_MainWindow(object):
         self.about.setText(_translate("MainWindow", "关于"))
         self.buttontest.setText(_translate("MainWindow", "PushButton"))
         self.labeltest.setText(_translate("MainWindow", "TextLabel"))
-        # self.labeltest.
+        self.login_but.setText(_translate("MainWindow", "登陆"))
+        self.pushButton_2.setText(_translate("MainWindow", "主页"))
+        self.pushButton_3.setText(_translate("MainWindow", "本地"))
+        self.pushButton_4.setText(_translate("MainWindow", "推荐"))
+        self.pushButton_5.setText(_translate("MainWindow", "关于"))
 

@@ -1,10 +1,3 @@
-'''
-案例窗口跳转
-点击按键，串口跳转到模拟的登陆、注册界面。并屏蔽父亲窗口操作。
-# ui.buttontest.clicked.connect(window.close)# 关闭父窗口
-要求，规范化
-'''
-
 import sys
 
 from PyQt5.QtGui import QPalette
@@ -12,21 +5,11 @@ from PyQt5.QtWidgets import QApplication, QMainWindow, QMessageBox, QDialog
 from PyQt5 import QtCore, QtGui, QtWidgets
 from distributed.utils import palette
 from PyQt5.QtCore import Qt
-from designer import home, login,registered
-from views import Registered_Dialog,Forget_Password_Dialog
-
-# class Registered_Dialog(QDialog):
-#     def __init__(self):
-#         QDialog.__init__(self)
-#         self.registered_Dialog = registered.Ui_Dialog()
-#         self.registered_Dialog.setupUi(self)
-#         # self.setWindowFlags(Qt.WindowStaysOnTopHint)  # 屏蔽父亲窗口操作
-#
+from designer import home, login, registered
+from views import Registered_Dialog, Forget_Password_Dialog
 
 
-
-
-class Chikd_Window(QDialog):
+class Login_Dialog(QDialog):
     def __init__(self):
         QDialog.__init__(self)
         self.login_window = login.Ui_Dialog()
@@ -78,28 +61,3 @@ class Chikd_Window(QDialog):
         self.reject()
         pass
 
-
-class Home_Window(QMainWindow):
-    def __init__(self):
-        QMainWindow.__init__(self)
-        self.main_ui = home.Ui_MainWindow()
-        self.main_ui.setupUi(self)
-        # 获得子窗口对象
-        self.chick_window = Chikd_Window()
-        # 弹出子窗口
-        self.main_ui.login_but.clicked.connect(self.chick_window.show)
-
-
-if __name__ == '__main__':
-    # 创建   类实例
-    app = QApplication(sys.argv)
-
-    window = Home_Window()  # 主窗口
-    login_window = Chikd_Window  # 子窗口
-
-    # _translate = QtCore.QCoreApplication.translate
-    # ui.login.setText(_translate("MainWindow", "退出test"))
-    # ui.buttontest.clicked.connect(window.close)# 关闭父窗口
-    # ui.labeltest.clicked.connect(Run.showMessage)
-    window.show()
-    sys.exit(app.exec_())

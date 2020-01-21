@@ -182,6 +182,71 @@
      <string>TextLabel</string>
     </property>
    </widget>
+   <widget class="QPushButton" name="login_but">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>80</y>
+      <width>120</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>登陆</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>150</y>
+      <width>120</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>主页</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>220</y>
+      <width>120</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>本地</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>290</y>
+      <width>120</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>推荐</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_5">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>360</y>
+      <width>120</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>关于</string>
+    </property>
+   </widget>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
