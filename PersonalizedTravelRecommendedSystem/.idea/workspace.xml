@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5c1a90a-9112-4e79-bd06-6bb29e3f488b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../article_code/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../article_code/.idea/article_code.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../article_code/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../article_code/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../article_code/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../article_code/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer/home.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/designer/home.ui" beforeDir="false" afterPath="$PROJECT_DIR$/designer/home.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/Home_Window.py" beforeDir="false" afterPath="$PROJECT_DIR$/views/Home_Window.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/views/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,16 +47,16 @@
     <property name="settings.editor.selected.configurable" value="yiiguxing.plugin.translate" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/views" />
+      <recent name="$PROJECT_DIR$/MD" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/images" />
       <recent name="$PROJECT_DIR$/designer" />
       <recent name="$PROJECT_DIR$/views" />
       <recent name="$PROJECT_DIR$/study" />
-      <recent name="$PROJECT_DIR$/json" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/views" />
-      <recent name="$PROJECT_DIR$/MD" />
     </key>
   </component>
   <component name="RunManager" selected="Python.article_main">
@@ -264,6 +266,7 @@
       <workItem from="1579606649752" duration="841000" />
       <workItem from="1579768879675" duration="176000" />
       <workItem from="1579769072619" duration="13639000" />
+      <workItem from="1579864585302" duration="772000" />
     </task>
     <servers />
   </component>
@@ -356,12 +359,12 @@
     <state x="469" y="179" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1578105233757" />
     <state x="-1449" y="143" key="SettingsEditor/0.23.1920.977/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1579265175814" />
     <state x="21" y="210" key="SettingsEditor/0.23.1920.977@0.23.1920.977" timestamp="1579769118098" />
-    <state x="673" y="366" key="com.intellij.ide.util.TipDialog" timestamp="1579769087206">
+    <state x="673" y="366" key="com.intellij.ide.util.TipDialog" timestamp="1579864592708">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
     <state x="-1247" y="394" key="com.intellij.ide.util.TipDialog/0.23.1920.977/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1579180928088" />
     <state x="673" y="366" key="com.intellij.ide.util.TipDialog/0.23.1920.977/-1920.23.1920.1057@0.23.1920.977" timestamp="1578660314913" />
-    <state x="673" y="366" key="com.intellij.ide.util.TipDialog/0.23.1920.977@0.23.1920.977" timestamp="1579769087206" />
+    <state x="673" y="366" key="com.intellij.ide.util.TipDialog/0.23.1920.977@0.23.1920.977" timestamp="1579864592708" />
     <state x="682" y="268" width="670" height="676" key="search.everywhere.popup" timestamp="1578109600628">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
