@@ -5,8 +5,8 @@ from PyQt5.QtWidgets import QApplication, QMainWindow, QMessageBox, QDialog, QLi
 from PyQt5 import QtCore, QtGui, QtWidgets
 from distributed.utils import palette
 from PyQt5.QtCore import Qt, QStringListModel
-from designer import home, login, registered,list_item
-from views import Registered_Dialog, Forget_Password_Dialog, Login_Dialog
+from designer import home, login, registered, list_item
+from views import Registered_Dialog, Forget_Password_Dialog, Login_Dialog, home_page
 from images import *
 
 
@@ -50,15 +50,28 @@ class Window_app(QMainWindow):
         # lb1.setPixmap(pix)
 
         self.main_ui.home_scenic_image.setPixmap(pix)
+        # self.main_ui.home_scenic_image.setScaledContents(True)
         self.main_ui.home_scenic_image.setAlignment(Qt.AlignCenter)
 
     def home_page(self):
         add_widget = self.stacked_Widget.addWidget(self.main_ui.page_home)
         self.stacked_Widget.setCurrentIndex(add_widget)
 
+        home = home_page.Home_Page()
+        self.main_ui.home_scenic_name.setText(home.get_name())
+        self.main_ui.home_scenic_image.setPixmap(home.get_image())
+        self.main_ui.home_scenic_introduction.setText(home.get_introduction())
     def locad_page(self):
         add_widget = self.stacked_Widget.addWidget(self.main_ui.page_locad)
         self.stacked_Widget.setCurrentIndex(add_widget)
+
+        path = os.path.abspath(os.path.join(os.getcwd(), '..'))
+        print(path + '/images/xjj.jpg')
+        pix = QPixmap(path + '/images/xjj2.jpg')
+
+        self.main_ui.locad_scenic_image_1.setPixmap(pix)
+        self.main_ui.locad_scenic_image_1.setScaledContents(True)
+        self.main_ui.locad_scenic_image_1.setAlignment(Qt.AlignCenter)
 
         view = QListView()
         model = QStringListModel()
@@ -67,7 +80,8 @@ class Window_app(QMainWindow):
         print(type(model))
         print(type(list_item.Ui_Frame()))
         # self.main_ui.listView.setModel(model)
-        self.main_ui.listWidget.
+        # self.main_ui.listWidget.addItem("1")
+        # self.main_ui.listWidget.addItem('2')
 
     def suggest_page(self):
         add_widget = self.stacked_Widget.addWidget(self.main_ui.page_suggest)
