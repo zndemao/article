@@ -1,13 +1,17 @@
 import sys
 import os
+import threading
+import time
+
 from PyQt5.QtGui import QPalette, QPixmap
 from PyQt5.QtWidgets import QApplication, QMainWindow, QMessageBox, QDialog, QListView
 from PyQt5 import QtCore, QtGui, QtWidgets
 from distributed.utils import palette
-from PyQt5.QtCore import Qt, QStringListModel
+from PyQt5.QtCore import Qt, QStringListModel, QThread, pyqtSignal
 from designer import home, login, registered, list_item
 from views import Registered_Dialog, Forget_Password_Dialog, Login_Dialog, home_page
 from images import *
+from utils import ip_get_location
 
 
 class Window_app(QMainWindow):
@@ -29,7 +33,7 @@ class Window_app(QMainWindow):
         self.main_ui.locad_but.clicked.connect(self.locad_page)
         self.main_ui.suggest_but.clicked.connect(self.suggest_page)
         self.main_ui.about_but.clicked.connect(self.about_page)
-
+        # 初始化
         self.init()
 
     def init(self):
@@ -39,19 +43,16 @@ class Window_app(QMainWindow):
         # 图片路径
         path = os.path.abspath(os.path.join(os.getcwd(), '..'))
         print(os.getcwd())
-        print(path)
+        # print(path)
         print(path + '/images/xjj.jpg')
-
         pix = QPixmap(path + '/images/xjj.jpg')
-
-        # lb1 = QLabel(self)
-        # lb1.setGeometry(0, 0, 300, 200)
-        # lb1.setStyleSheet("border: 2px solid red")
-        # lb1.setPixmap(pix)
 
         self.main_ui.home_scenic_image.setPixmap(pix)
         # self.main_ui.home_scenic_image.setScaledContents(True)
         self.main_ui.home_scenic_image.setAlignment(Qt.AlignCenter)
+
+        # 获取位置,使用线程
+        threading.Thread(target=self.work, args=(15,)).start()
 
     def home_page(self):
         add_widget = self.stacked_Widget.addWidget(self.main_ui.page_home)
@@ -61,6 +62,7 @@ class Window_app(QMainWindow):
         self.main_ui.home_scenic_name.setText(home.get_name())
         self.main_ui.home_scenic_image.setPixmap(home.get_image())
         self.main_ui.home_scenic_introduction.setText(home.get_introduction())
+
     def locad_page(self):
         add_widget = self.stacked_Widget.addWidget(self.main_ui.page_locad)
         self.stacked_Widget.setCurrentIndex(add_widget)
@@ -73,15 +75,8 @@ class Window_app(QMainWindow):
         self.main_ui.locad_scenic_image_1.setScaledContents(True)
         self.main_ui.locad_scenic_image_1.setAlignment(Qt.AlignCenter)
 
-        view = QListView()
-        model = QStringListModel()
-        self.l = ['1', '2', '3']
-        model.setStringList(self.l)
-        print(type(model))
-        print(type(list_item.Ui_Frame()))
-        # self.main_ui.listView.setModel(model)
-        # self.main_ui.listWidget.addItem("1")
-        # self.main_ui.listWidget.addItem('2')
+        # 获取位置
+        # self.main_ui.locad_city.setText('定位：'+ip_get_location.get_location())
 
     def suggest_page(self):
         add_widget = self.stacked_Widget.addWidget(self.main_ui.page_suggest)
@@ -94,3 +89,26 @@ class Window_app(QMainWindow):
         print(add_widget)
         widget.setCurrentIndex(add_widget)
         pass
+
+    # 以下是用线程更新UI
+    class MyThread(QThread):
+        # signal = pyqtSignal(int)
+
+        def __init__(self):
+            super().__init__()
+
+        def __del__(self):
+            self.wait()
+
+        def run(self):
+            print("run")
+            self.work()
+
+    def work(self, n):
+        location = ip_get_location.get_location()
+        print(location)
+        self.main_ui.locad_city.setText('定位：' + location)
+        # for i in range(1, n + 1):
+        #     print(str(i) + ": do something...")
+        #     #
+        #     time.sleep(1)
