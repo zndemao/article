@@ -9,7 +9,7 @@ mydict = {"city": "test_city", "scenic": "test_scenic", "level": "test_level", "
           "price": 99,
           "sales": 99}
 
-# x = mycol.insert_one(mydict)
+x = mycol.insert_one(mydict)
 # print(x)
 # print(x)
 

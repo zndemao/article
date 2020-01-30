@@ -12,9 +12,12 @@ from designer import home, login, registered, list_item
 from views import Registered_Dialog, Forget_Password_Dialog, Login_Dialog, home_page
 from images import *
 from utils import ip_get_location
+from base import home_and_locad_data
 
 
 class Window_app(QMainWindow):
+    data = home_and_locad_data.Data()
+
     def __init__(self):
         QMainWindow.__init__(self)
         self.main_ui = home.Ui_MainWindow()
@@ -42,7 +45,7 @@ class Window_app(QMainWindow):
         # 初始化home内部按钮
         # 图片路径
         path = os.path.abspath(os.path.join(os.getcwd(), '..'))
-        print(os.getcwd())
+        # print(os.getcwd())
         # print(path)
         print(path + '/images/xjj.jpg')
         pix = QPixmap(path + '/images/xjj.jpg')
@@ -52,7 +55,7 @@ class Window_app(QMainWindow):
         self.main_ui.home_scenic_image.setAlignment(Qt.AlignCenter)
 
         # 获取位置,使用线程
-        threading.Thread(target=self.work, args=(15,)).start()
+        threading.Thread(target=self.work).start()
 
     def home_page(self):
         add_widget = self.stacked_Widget.addWidget(self.main_ui.page_home)
@@ -102,12 +105,15 @@ class Window_app(QMainWindow):
 
         def run(self):
             print("run")
-            self.work()
+            # self.work()
 
-    def work(self, n):
-        location = ip_get_location.get_location()
-        print(location)
+    def work(self):
+        # location = ip_get_location.get_location()
+        location = Window_app.data.get_location()
+        print('Window_app:' + location)
         self.main_ui.locad_city.setText('定位：' + location)
+        # print('Window_app2:' + Window_app.data.get_location())
+
         # for i in range(1, n + 1):
         #     print(str(i) + ": do something...")
         #     #
