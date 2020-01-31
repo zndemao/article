@@ -9,7 +9,8 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 from distributed.utils import palette
 from PyQt5.QtCore import Qt
 from designer import home, login, registered, forget_password
-from views import Window_app,Login_Dialog
+from views import Window_app, Login_Dialog
+from control import user_control
 
 
 class Forget_PassWord(QDialog):
@@ -28,6 +29,22 @@ class Forget_PassWord(QDialog):
 
     def forget_password_window_modify_password(self):
         print('这里是点击忘记密码')
+
+        forget_password = self.forget_password_ui_dialog
+        phone = forget_password.pass_phone.text()
+        pass_1 = forget_password.pass_pass_1.text()
+        pass_2 = forget_password.pass_pass_2.text()
+        mailbox = forget_password.pass_mailbox.text()
+
+        control = user_control.User_Control()
+        update = control.update_password(phone, pass_1, pass_2, mailbox)
+        self.MessageBox(update)
+
         self.window = Login_Dialog.Login_Dialog()
         self.window.show()
         self.accept()
+
+    def MessageBox(self, text):
+        msgBox = QMessageBox(QMessageBox.NoIcon, '提示', text)
+        # msgBox.setIconPixmap(QPixmap("beauty.png"))
+        msgBox.exec()

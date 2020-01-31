@@ -17,55 +17,65 @@
    <property name="geometry">
     <rect>
      <x>80</x>
-     <y>60</y>
+     <y>35</y>
      <width>231</width>
-     <height>116</height>
+     <height>147</height>
     </rect>
    </property>
    <layout class="QFormLayout" name="formLayout">
-    <item row="0" column="0">
+    <item row="1" column="0">
      <widget class="QLabel" name="label">
       <property name="text">
        <string>手机号</string>
       </property>
      </widget>
     </item>
-    <item row="0" column="1">
-     <widget class="QLineEdit" name="lineEdit"/>
+    <item row="1" column="1">
+     <widget class="QLineEdit" name="reg_phone"/>
     </item>
-    <item row="1" column="0">
+    <item row="2" column="0">
      <widget class="QLabel" name="label_2">
       <property name="text">
        <string>密码</string>
       </property>
      </widget>
     </item>
-    <item row="1" column="1">
-     <widget class="QLineEdit" name="lineEdit_2"/>
+    <item row="2" column="1">
+     <widget class="QLineEdit" name="reg_pass_1"/>
     </item>
-    <item row="2" column="0">
+    <item row="3" column="0">
      <widget class="QLabel" name="label_3">
       <property name="text">
        <string>确认密码</string>
       </property>
      </widget>
     </item>
-    <item row="2" column="1">
-     <widget class="QLineEdit" name="lineEdit_3"/>
+    <item row="3" column="1">
+     <widget class="QLineEdit" name="reg_pass_2"/>
     </item>
-    <item row="3" column="0">
+    <item row="4" column="0">
      <widget class="QLabel" name="label_4">
       <property name="text">
        <string>邮箱</string>
       </property>
      </widget>
     </item>
-    <item row="3" column="1">
-     <widget class="QLineEdit" name="lineEdit_4"/>
+    <item row="4" column="1">
+     <widget class="QLineEdit" name="reg_mailbox"/>
+    </item>
+    <item row="0" column="0">
+     <widget class="QLabel" name="label_5">
+      <property name="text">
+       <string>用户名</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLineEdit" name="reg_name"/>
     </item>
    </layout>
   </widget>
-  <widget class="QPushButton" name="pushButton">
+  <widget class="QPushButton" name="reg_close">
    <property name="geometry">
     <rect>
      <x>60</x>
@@ -78,7 +88,7 @@
     <string>取消</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButton_2">
+  <widget class="QPushButton" name="reg_reg">
    <property name="geometry">
     <rect>
      <x>200</x>

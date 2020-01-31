@@ -2,13 +2,11 @@
 
 # Form implementation generated from reading ui file 'login.ui'
 #
-# Created by: PyQt5 UI code generator 5.14.0
+# Created by: PyQt5 UI code generator 5.9.2
 #
 # WARNING! All changes made in this file will be lost!
 
-
 from PyQt5 import QtCore, QtGui, QtWidgets
-
 
 class Ui_Dialog(object):
     def setupUi(self, Dialog):
@@ -34,13 +32,15 @@ class Ui_Dialog(object):
         self.label = QtWidgets.QLabel(self.formLayoutWidget)
         self.label.setObjectName("label")
         self.formLayout.setWidget(0, QtWidgets.QFormLayout.LabelRole, self.label)
-        self.user_name = QtWidgets.QLineEdit(self.formLayoutWidget)
-        self.user_name.setObjectName("user_name")
-        self.formLayout.setWidget(0, QtWidgets.QFormLayout.FieldRole, self.user_name)
+        self.user_phone = QtWidgets.QLineEdit(self.formLayoutWidget)
+        self.user_phone.setAlignment(QtCore.Qt.AlignLeading|QtCore.Qt.AlignLeft|QtCore.Qt.AlignVCenter)
+        self.user_phone.setObjectName("user_phone")
+        self.formLayout.setWidget(0, QtWidgets.QFormLayout.FieldRole, self.user_phone)
         self.label_2 = QtWidgets.QLabel(self.formLayoutWidget)
         self.label_2.setObjectName("label_2")
         self.formLayout.setWidget(1, QtWidgets.QFormLayout.LabelRole, self.label_2)
         self.user_password = QtWidgets.QLineEdit(self.formLayoutWidget)
+        self.user_password.setAlignment(QtCore.Qt.AlignLeading|QtCore.Qt.AlignLeft|QtCore.Qt.AlignVCenter)
         self.user_password.setObjectName("user_password")
         self.formLayout.setWidget(1, QtWidgets.QFormLayout.FieldRole, self.user_password)
         self.login_forget_password = QtWidgets.QPushButton(Dialog)
@@ -57,6 +57,7 @@ class Ui_Dialog(object):
         self.login_close.setText(_translate("Dialog", "取消"))
         self.login_registered.setText(_translate("Dialog", "注册"))
         self.login_login_button.setText(_translate("Dialog", "登陆"))
-        self.label.setText(_translate("Dialog", "用户名"))
-        self.label_2.setText(_translate("Dialog", "密  码"))
+        self.label.setText(_translate("Dialog", "手机号"))
+        self.label_2.setText(_translate("Dialog", "密   码"))
         self.login_forget_password.setText(_translate("Dialog", "忘记密码"))
+

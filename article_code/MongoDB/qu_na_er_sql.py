@@ -82,7 +82,7 @@ def parse_page(city_name, parse_page_url):
         except:
             jd_xiaoliang = 0
         print('{0}  {1}  {2}  {3}  {4}'.format(jd_name, jd_jb, jd_jieshao, jd_price, jd_xiaoliang))
-        mysql(city_name, jd_name, jd_jb, jd_jieshao, jd_price, jd_xiaoliang)
+        # mysql(city_name, jd_name, jd_jb, jd_jieshao, jd_price, jd_xiaoliang)
 
 
 # 定义一个类，将连接MySQL的操作写入其中,使用的mongodb数据库

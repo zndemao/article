@@ -10,6 +10,8 @@ from distributed.utils import palette
 from PyQt5.QtCore import Qt
 from designer import home, login, registered
 from views import Registered_Dialog, Forget_Password_Dialog
+from control import user_control
+from PyQt5.QtGui import QPixmap
 
 
 class Login_Dialog(QDialog):
@@ -35,7 +37,25 @@ class Login_Dialog(QDialog):
 
     # 登陆
     def user_login(self):
-        print('login button on')
+        # print('login button on')
+        phone = self.login_window.user_phone.text()
+        password = self.login_window.user_password.text()
+        # toast = ''
+        if phone == '':
+            self.MessageBox('手机号不能为空')
+            return
+            # toast = '手机号不能为空'
+        if password == '':
+            self.MessageBox('密码不能为空')
+            # toast = '密码不能为空'
+            return
+        print(phone)
+        control = user_control.User_Control()
+        login = control.login(phone, password)
+        print(login)
+        # msgBox = QMessageBox(QMessageBox.NoIcon, '提示', '不要意淫了，早点洗洗睡吧!')
+        # msgBox.setIconPixmap(QPixmap("beauty.png"))
+        # msgBox.exec()
         self.accept()  # 接受
         pass
 
@@ -64,3 +84,7 @@ class Login_Dialog(QDialog):
         self.reject()
         pass
 
+    def MessageBox(self, text):
+        msgBox = QMessageBox(QMessageBox.NoIcon, '提示', text)
+        # msgBox.setIconPixmap(QPixmap("beauty.png"))
+        msgBox.exec()
