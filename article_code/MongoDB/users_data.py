@@ -100,10 +100,10 @@ if __name__ == '__main__':
               "mailbox": "cubecats@icloud.com",
               "recording": '0'}
     # db.add_user(mydict)
-    # find = db.query_registered('admin_temp')
-    # print(find)
+    find = db.query_registered('admin_temp')
+    print(find)
     # # db.query_all()
     # login = db.query_login("18500000001")
     # print(login)
-    update_pass = db.update_pass('18500000001', 'new_admin', "cubecats@icloud.com")
-    print(update_pass)
+    # update_pass = db.update_pass('18500000001', 'new_admin', "cubecats@icloud.com")
+    # print(update_pass)

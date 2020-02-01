@@ -3,7 +3,7 @@ import os
 import threading
 import time
 
-from PyQt5.QtGui import QPalette, QPixmap
+from PyQt5.QtGui import QPalette, QPixmap, QImage
 from PyQt5.QtWidgets import QApplication, QMainWindow, QMessageBox, QDialog, QListView
 from PyQt5 import QtCore, QtGui, QtWidgets
 from distributed.utils import palette
@@ -11,8 +11,9 @@ from PyQt5.QtCore import Qt, QStringListModel, QThread, pyqtSignal
 from designer import home, login, registered, list_item
 from views import Registered_Dialog, Forget_Password_Dialog, Login_Dialog, home_page
 from images import *
-from utils import ip_get_location
+from utils import ip_get_location, download_image
 from base import home_and_locad_data
+from MongoDB import locad_jd
 
 
 class Window_app(QMainWindow):
@@ -57,6 +58,9 @@ class Window_app(QMainWindow):
         # 获取位置,使用线程
         threading.Thread(target=self.work).start()
 
+        location = Window_app.data.get_location()
+        # locad_jd.parse_city(location)
+
     def home_page(self):
         add_widget = self.stacked_Widget.addWidget(self.main_ui.page_home)
         self.stacked_Widget.setCurrentIndex(add_widget)
@@ -72,11 +76,19 @@ class Window_app(QMainWindow):
 
         path = os.path.abspath(os.path.join(os.getcwd(), '..'))
         print(path + '/images/xjj.jpg')
+
         pix = QPixmap(path + '/images/xjj2.jpg')
 
         self.main_ui.locad_scenic_image_1.setPixmap(pix)
         self.main_ui.locad_scenic_image_1.setScaledContents(True)
         self.main_ui.locad_scenic_image_1.setAlignment(Qt.AlignCenter)
+
+        date = download_image.download_date(
+            'https://imgs.qunarzz.com/sight/p0/1701/88/885ec9c1584a572aa3.img.png_280x200_91ebdc7b.png')
+        img = QImage.fromData(date.content)
+        image = QPixmap.fromImage(img)
+
+        self.main_ui.locad_scenic_image_2.setPixmap(image)
 
         # 获取位置
         # self.main_ui.locad_city.setText('定位：'+ip_get_location.get_location())
