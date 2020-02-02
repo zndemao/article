@@ -16,7 +16,7 @@ from control import user_control
 class Registered_Dialog(QDialog):
     def __init__(self):
         QDialog.__init__(self)
-        self.registered_Dialog = registered.Ui_Dialog()
+        self.registered_Dialog = registered.Ui_dialog()
         self.registered_Dialog.setupUi(self)
         self.setWindowFlags(Qt.WindowStaysOnTopHint)  # 屏蔽父亲窗口操作
 

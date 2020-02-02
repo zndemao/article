@@ -204,7 +204,7 @@
        <set>Qt::AlignCenter</set>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton">
+     <widget class="QPushButton" name="previous_page">
       <property name="geometry">
        <rect>
         <x>270</x>
@@ -217,7 +217,7 @@
        <string>上一页</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_2">
+     <widget class="QPushButton" name="next_page">
       <property name="geometry">
        <rect>
         <x>430</x>

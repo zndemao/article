@@ -2,6 +2,9 @@ from utils import ip_get_location
 import os
 
 
+# from control import local_control
+
+
 class Data(object):
     # 位置
     location = ip_get_location.get_location()
@@ -12,6 +15,13 @@ class Data(object):
                    '，测试内容，测试内容，测试内容，测试内容，测试内容，测试内容，' \
                    '测试内容，测试内容，测试内容，测试内容，测试内容，测试内容，测试内容，测试内容'
     # 本地
+    # local_ = local_control.Loacl_Control()
+    # local_info = local_.init_local()
+    # info_1 = local_info[0]
+    # info_2 = local_info[1]
+    # print(info_1)
+    # logging.info(info_2)
+
     locad_scenic_image_1 = ''
     locad_scenic_image_2 = ''
     locad_scenic_image_3 = ''
@@ -21,6 +31,7 @@ class Data(object):
     locad_scenic_introduction_1 = ''
     locad_scenic_introduction_2 = ''
     locad_scenic_introduction_3 = ''
+
     # 推荐
 
     # 关于
@@ -54,13 +65,15 @@ class Data(object):
     def get_locad_scenic_image_1(self):
         return Data.locad_scenic_image_1
 
-    def set_locad_scenic_image_1(self):
+    def set_locad_scenic_image_1(self, path):
+        Data.locad_scenic_image_1 = path
         pass
 
     def get_locad_scenic_image_2(self):
         return Data.locad_scenic_image_2
 
-    def set_locad_scenic_image_2(self):
+    def set_locad_scenic_image_2(self, path):
+        Data.locad_scenic_image_2 = path
         pass
 
     def get_locad_scenic_image_3(self):
@@ -72,13 +85,15 @@ class Data(object):
     def get_locad_scenic_name_1(self):
         return Data.locad_scenic_name_1
 
-    def set_locad_scenic_name_1(self):
+    def set_locad_scenic_name_1(self, name):
+        Data.locad_scenic_name_1 = name
         pass
 
     def get_locad_scenic_name_2(self):
         return Data.locad_scenic_name_2
 
-    def set_locad_scenic_name_2(self):
+    def set_locad_scenic_name_2(self, name):
+        Data.locad_scenic_name_2 = name
         pass
 
     def get_locad_scenic_name_3(self):
@@ -90,13 +105,15 @@ class Data(object):
     def get_locad_scenic_introduction_1(self):
         return Data.locad_scenic_introduction_1
 
-    def set_locad_scenic_introduction_1(self):
+    def set_locad_scenic_introduction_1(self, introduction):
+        Data.locad_scenic_introduction_1 = introduction
         pass
 
     def get_locad_scenic_introduction_2(self):
         return Data.locad_scenic_introduction_2
 
-    def set_locad_scenic_introduction_2(self):
+    def set_locad_scenic_introduction_2(self, introduction):
+        Data.locad_scenic_introduction_2 = introduction
         pass
 
     def get_locad_scenic_introduction_3(self):

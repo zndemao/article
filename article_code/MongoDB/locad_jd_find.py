@@ -18,8 +18,9 @@ class Locad_Find():
     #           "image_path": self.scenic_image_path}
 
     def query_ctiy(self, city):
-        find = Locad_Find.mycol.find({'city': city}, {'scenic': 1, 'introduction': 1, 'image': 1, 'image_path': 1})
-        print(type(find))
+        find = Locad_Find.mycol.find({'city': city},
+                                     {'city': 1, 'scenic': 1, 'introduction': 1, 'image': 1, 'image_path': 1})
+        # print(type(find))
         list = []
         # print(list)
         for x in find:

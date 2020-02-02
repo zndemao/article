@@ -6,7 +6,7 @@ def judge_file_presence(city, name):
     file_path = path + '/images/' + city + '/' + name
     exists = os.path.exists(file_path)
     # print(exists)
-    return True
+    return exists
     pass
 
 

@@ -1,0 +1,5 @@
+2020-02-02 18:19:36,461 MyLog.py[line:5] DEBUG debug message
+2020-02-02 18:19:36,461 MyLog.py[line:6] INFO info message
+2020-02-02 18:19:36,461 MyLog.py[line:7] WARNING warning message
+2020-02-02 18:19:36,461 MyLog.py[line:8] ERROR error message
+2020-02-02 18:19:36,461 MyLog.py[line:9] CRITICAL critical message

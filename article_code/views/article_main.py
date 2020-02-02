@@ -12,9 +12,10 @@ if __name__ == '__main__':
     # 创建   类实例
     app = QApplication(sys.argv)
 
+
     window = Window_app.Window_app()  # 主窗口
     # login_window = Chikd_Window  # 子窗口
-
+    window.setWindowTitle('个性化旅游推荐系统')
     # _translate = QtCore.QCoreApplication.translate
     # ui.login.setText(_translate("MainWindow", "退出test"))
     # ui.buttontest.clicked.connect(window.close)# 关闭父窗口
