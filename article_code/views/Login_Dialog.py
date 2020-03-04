@@ -86,5 +86,5 @@ class Login_Dialog(QDialog):
 
     def MessageBox(self, text):
         msgBox = QMessageBox(QMessageBox.NoIcon, '提示', text)
-        # msgBox.setIconPixmap(QPixmap("beauty.png"))
+        # msgBoxexec.setIconPixmap(QPixmap("beauty.png"))
         msgBox.exec()

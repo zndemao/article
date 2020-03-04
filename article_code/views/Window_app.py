@@ -55,7 +55,7 @@ class Window_app(QMainWindow):
         # print(path)
         print(path + '/images/xjj.jpg')
         pix = QPixmap(path + '/images/xjj.jpg')
-        pix = QPixmap(path + '/images/xjj.jpg')
+        pix = QPixmap(path + '/images/开封/清明上河园.jpg')
 
         self.main_ui.home_scenic_image.setPixmap(pix)
         # self.main_ui.home_scenic_image.setScaledContents(True)

@@ -47,6 +47,13 @@ class Ui_Dialog(object):
         self.login_forget_password.setGeometry(QtCore.QRect(20, 260, 113, 32))
         self.login_forget_password.setAutoDefault(False)
         self.login_forget_password.setObjectName("login_forget_password")
+        self.login_admin = QtWidgets.QRadioButton(Dialog)
+        self.login_admin.setGeometry(QtCore.QRect(90, 40, 100, 20))
+        self.login_admin.setObjectName("login_admin")
+        self.login_user = QtWidgets.QRadioButton(Dialog)
+        self.login_user.setGeometry(QtCore.QRect(220, 40, 100, 20))
+        self.login_user.setChecked(True)
+        self.login_user.setObjectName("login_user")
 
         self.retranslateUi(Dialog)
         QtCore.QMetaObject.connectSlotsByName(Dialog)
@@ -60,4 +67,6 @@ class Ui_Dialog(object):
         self.label.setText(_translate("Dialog", "手机号"))
         self.label_2.setText(_translate("Dialog", "密   码"))
         self.login_forget_password.setText(_translate("Dialog", "忘记密码"))
+        self.login_admin.setText(_translate("Dialog", " 管理员"))
+        self.login_user.setText(_translate("Dialog", "用户"))
 

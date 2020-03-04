@@ -49,6 +49,13 @@ class Ui_Dialog(object):
         self.modify_password.setGeometry(QtCore.QRect(200, 210, 113, 32))
         self.modify_password.setAutoDefault(False)
         self.modify_password.setObjectName("modify_password")
+        self.forget_admin = QtWidgets.QRadioButton(Dialog)
+        self.forget_admin.setGeometry(QtCore.QRect(80, 30, 100, 20))
+        self.forget_admin.setObjectName("forget_admin")
+        self.forget_user = QtWidgets.QRadioButton(Dialog)
+        self.forget_user.setGeometry(QtCore.QRect(210, 30, 100, 20))
+        self.forget_user.setChecked(True)
+        self.forget_user.setObjectName("forget_user")
 
         self.retranslateUi(Dialog)
         QtCore.QMetaObject.connectSlotsByName(Dialog)
@@ -62,4 +69,6 @@ class Ui_Dialog(object):
         self.label_4.setText(_translate("Dialog", "邮箱"))
         self.forget_password_cancel.setText(_translate("Dialog", "取消"))
         self.modify_password.setText(_translate("Dialog", "修改密码"))
+        self.forget_admin.setText(_translate("Dialog", " 管理员"))
+        self.forget_user.setText(_translate("Dialog", "用户"))
 

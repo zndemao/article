@@ -24,6 +24,7 @@ class Home_Page(QtWidgets.QLabel):
 
         path = os.path.abspath(os.path.join(os.getcwd(), '..'))
         pix = QPixmap(path + '/images/xjj.jpg')
+        pix = QPixmap(path + '/images/开封/清明上河园.jpg')
 
         return pix
 

@@ -40,7 +40,7 @@ def get_location():
     r = requests.get(url='http://ip.42.pl/raw', params={'wd': 'python'})
     ip = r.text
     ip = '182.127.196.182'
-    ip = '111.172.9.223'
+    # ip = '111.172.9.223'
     response = reader.city(ip)  # 有多种语言，我们这里主要输出英文和中文print("你查询的IP的地理位置是:")
 
     state = response.subdivisions.most_specific.names["zh-CN"]

@@ -55,6 +55,13 @@ class Ui_dialog(object):
         self.reg_reg.setGeometry(QtCore.QRect(200, 210, 113, 32))
         self.reg_reg.setAutoDefault(False)
         self.reg_reg.setObjectName("reg_reg")
+        self.radioButton_admin = QtWidgets.QRadioButton(dialog)
+        self.radioButton_admin.setGeometry(QtCore.QRect(80, 10, 100, 20))
+        self.radioButton_admin.setObjectName("radioButton_admin")
+        self.radioButton_user = QtWidgets.QRadioButton(dialog)
+        self.radioButton_user.setGeometry(QtCore.QRect(210, 10, 100, 20))
+        self.radioButton_user.setChecked(True)
+        self.radioButton_user.setObjectName("radioButton_user")
 
         self.retranslateUi(dialog)
         QtCore.QMetaObject.connectSlotsByName(dialog)
@@ -69,4 +76,6 @@ class Ui_dialog(object):
         self.label_5.setText(_translate("dialog", "用户名"))
         self.reg_close.setText(_translate("dialog", "取消"))
         self.reg_reg.setText(_translate("dialog", "注册"))
+        self.radioButton_admin.setText(_translate("dialog", " 管理员"))
+        self.radioButton_user.setText(_translate("dialog", "用户"))
 

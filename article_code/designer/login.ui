@@ -114,6 +114,35 @@
     <bool>false</bool>
    </property>
   </widget>
+  <widget class="QRadioButton" name="login_admin">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>40</y>
+     <width>100</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string> 管理员</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="login_user">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>40</y>
+     <width>100</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>用户</string>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+  </widget>
  </widget>
  <resources/>
  <connections/>
