@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>800</width>
-    <height>600</height>
+    <height>590</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -120,10 +120,16 @@
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>100</y>
+      <y>90</y>
       <width>780</width>
       <height>480</height>
      </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
     </property>
     <property name="currentIndex">
      <number>1</number>
@@ -168,6 +174,21 @@
        <string>TextLabel</string>
       </property>
      </widget>
+     <widget class="QWebEngineView" name="home_webEngineView">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>780</width>
+        <height>480</height>
+       </rect>
+      </property>
+      <property name="url">
+       <url>
+        <string>about:blank</string>
+       </url>
+      </property>
+     </widget>
     </widget>
     <widget class="QWidget" name="page_locad">
      <widget class="QLabel" name="locad_city">
@@ -175,9 +196,14 @@
        <rect>
         <x>25</x>
         <y>0</y>
-        <width>80</width>
+        <width>200</width>
         <height>30</height>
        </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>24</pointsize>
+       </font>
       </property>
       <property name="text">
        <string>定位：开封</string>
@@ -337,20 +363,20 @@
            <widget class="QPushButton" name="locad_scenic_love_1">
             <property name="geometry">
              <rect>
-              <x>36</x>
-              <y>360</y>
-              <width>100</width>
-              <height>32</height>
+              <x>150</x>
+              <y>330</y>
+              <width>60</width>
+              <height>60</height>
              </rect>
             </property>
             <property name="text">
-             <string>喜欢</string>
+             <string>收藏</string>
             </property>
            </widget>
            <widget class="QPushButton" name="locad_scenic_ding_1">
             <property name="geometry">
              <rect>
-              <x>260</x>
+              <x>270</x>
               <y>330</y>
               <width>60</width>
               <height>60</height>
@@ -358,6 +384,32 @@
             </property>
             <property name="text">
              <string>预定</string>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="locad_scenic_fx_1">
+            <property name="geometry">
+             <rect>
+              <x>210</x>
+              <y>330</y>
+              <width>60</width>
+              <height>60</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string>分享</string>
+            </property>
+           </widget>
+           <widget class="QLabel" name="locad_scenic_dengji_1">
+            <property name="geometry">
+             <rect>
+              <x>36</x>
+              <y>360</y>
+              <width>110</width>
+              <height>16</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string>等级：5A</string>
             </property>
            </widget>
           </widget>
@@ -448,7 +500,7 @@
            <widget class="QPushButton" name="locad_scenic_ding_2">
             <property name="geometry">
              <rect>
-              <x>260</x>
+              <x>270</x>
               <y>330</y>
               <width>60</width>
               <height>60</height>
@@ -461,14 +513,14 @@
            <widget class="QPushButton" name="locad_scenic_love_2">
             <property name="geometry">
              <rect>
-              <x>36</x>
-              <y>360</y>
-              <width>100</width>
-              <height>32</height>
+              <x>150</x>
+              <y>330</y>
+              <width>60</width>
+              <height>60</height>
              </rect>
             </property>
             <property name="text">
-             <string>喜欢</string>
+             <string>收藏</string>
             </property>
            </widget>
            <widget class="QLabel" name="locad_scenic_jiage_2">
@@ -484,103 +536,230 @@
              <string>价格：000</string>
             </property>
            </widget>
+           <widget class="QPushButton" name="locad_scenic_fx_2">
+            <property name="geometry">
+             <rect>
+              <x>210</x>
+              <y>330</y>
+              <width>60</width>
+              <height>60</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string>分享</string>
+            </property>
+           </widget>
+           <widget class="QLabel" name="locad_scenic_dengji_2">
+            <property name="geometry">
+             <rect>
+              <x>36</x>
+              <y>360</y>
+              <width>110</width>
+              <height>16</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string>等级：5A</string>
+            </property>
+           </widget>
           </widget>
          </item>
         </layout>
        </item>
       </layout>
      </widget>
-     <widget class="QPushButton" name="pushButton_2">
+     <widget class="QComboBox" name="ld_fenlei">
       <property name="geometry">
        <rect>
-        <x>100</x>
-        <y>2</y>
+        <x>580</x>
+        <y>10</y>
         <width>80</width>
-        <height>32</height>
+        <height>26</height>
        </rect>
       </property>
-      <property name="text">
-       <string>更改位置</string>
+     </widget>
+     <widget class="QComboBox" name="ld_city">
+      <property name="geometry">
+       <rect>
+        <x>660</x>
+        <y>10</y>
+        <width>80</width>
+        <height>26</height>
+       </rect>
       </property>
      </widget>
     </widget>
     <widget class="QWidget" name="page_suggest">
-     <widget class="QTextBrowser" name="textBrowser">
+     <widget class="QFrame" name="horizontalFrame_3">
       <property name="geometry">
        <rect>
-        <x>180</x>
+        <x>140</x>
         <y>10</y>
-        <width>351</width>
-        <height>51</height>
+        <width>500</width>
+        <height>45</height>
        </rect>
       </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_3">
+       <item>
+        <widget class="QComboBox" name="ss_comboBox">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>26</height>
+          </size>
+         </property>
+         <item>
+          <property name="text">
+           <string>城市</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>景点</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="ss_lineEdit"/>
+       </item>
+       <item>
+        <widget class="QPushButton" name="ss_ssbutton">
+         <property name="text">
+          <string>搜索</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
      </widget>
-     <widget class="QPushButton" name="pushButton">
+     <widget class="QListWidget" name="ss_listWidget">
       <property name="geometry">
        <rect>
-        <x>540</x>
-        <y>20</y>
-        <width>113</width>
-        <height>32</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>PushButton</string>
-      </property>
-     </widget>
-     <widget class="QListView" name="listView">
-      <property name="geometry">
-       <rect>
-        <x>30</x>
-        <y>80</y>
-        <width>731</width>
-        <height>361</height>
+        <x>10</x>
+        <y>60</y>
+        <width>760</width>
+        <height>460</height>
        </rect>
       </property>
      </widget>
     </widget>
     <widget class="QWidget" name="page_about">
-     <widget class="QLabel" name="label_4">
+     <widget class="QTabWidget" name="my">
       <property name="geometry">
        <rect>
-        <x>340</x>
-        <y>40</y>
-        <width>100</width>
-        <height>80</height>
+        <x>10</x>
+        <y>10</y>
+        <width>760</width>
+        <height>460</height>
        </rect>
       </property>
-      <property name="font">
-       <font>
-        <pointsize>24</pointsize>
-        <weight>75</weight>
-        <italic>false</italic>
-        <bold>true</bold>
-       </font>
+      <property name="currentIndex">
+       <number>0</number>
       </property>
-      <property name="text">
-       <string>关于</string>
+      <property name="usesScrollButtons">
+       <bool>false</bool>
       </property>
-      <property name="alignment">
-       <set>Qt::AlignCenter</set>
+      <property name="documentMode">
+       <bool>true</bool>
       </property>
-     </widget>
-     <widget class="QLabel" name="label">
-      <property name="geometry">
-       <rect>
-        <x>200</x>
-        <y>160</y>
-        <width>60</width>
-        <height>16</height>
-       </rect>
+      <property name="tabsClosable">
+       <bool>false</bool>
       </property>
-      <property name="text">
-       <string>内容介绍</string>
+      <property name="movable">
+       <bool>false</bool>
       </property>
+      <property name="tabBarAutoHide">
+       <bool>false</bool>
+      </property>
+      <widget class="QWidget" name="tab_3">
+       <attribute name="title">
+        <string>我的信息</string>
+       </attribute>
+       <widget class="QTabWidget" name="tabWidget">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>760</width>
+          <height>430</height>
+         </rect>
+        </property>
+        <property name="currentIndex">
+         <number>2</number>
+        </property>
+        <property name="documentMode">
+         <bool>true</bool>
+        </property>
+        <widget class="QWidget" name="tab_5">
+         <attribute name="title">
+          <string>个人信息</string>
+         </attribute>
+        </widget>
+        <widget class="QWidget" name="tab_6">
+         <attribute name="title">
+          <string>我的收藏</string>
+         </attribute>
+         <widget class="QListWidget" name="user_love_listWidget">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>10</y>
+            <width>740</width>
+            <height>400</height>
+           </rect>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QWidget" name="tab_7">
+         <attribute name="title">
+          <string>我的订单</string>
+         </attribute>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_4">
+       <attribute name="title">
+        <string>管理员管理</string>
+       </attribute>
+       <widget class="QTabWidget" name="tabWidget_2">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>760</width>
+          <height>430</height>
+         </rect>
+        </property>
+        <property name="currentIndex">
+         <number>0</number>
+        </property>
+        <property name="documentMode">
+         <bool>true</bool>
+        </property>
+        <widget class="QWidget" name="tab_8">
+         <attribute name="title">
+          <string>用户管理</string>
+         </attribute>
+        </widget>
+        <widget class="QWidget" name="tab_9">
+         <attribute name="title">
+          <string>订单管理</string>
+         </attribute>
+        </widget>
+       </widget>
+      </widget>
      </widget>
     </widget>
    </widget>
   </widget>
  </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QWebEngineView</class>
+   <extends>QWidget</extends>
+   <header location="global">QtWebEngineWidgets/QWebEngineView</header>
+  </customwidget>
+ </customwidgets>
  <resources/>
  <connections/>
 </ui>

@@ -38,14 +38,20 @@ def get_location():
     path = os.path.abspath(os.path.join(os.getcwd(), '..'))
     reader = geoip2.database.Reader(path + '/utils/GeoLite2-City.mmdb')
     r = requests.get(url='http://ip.42.pl/raw', params={'wd': 'python'})
+    print(r.text)
     ip = r.text
-    ip = '182.127.196.182'
+    # ip = '182.127.196.182'
     # ip = '111.172.9.223'
+    ip = '117.174.23.255'
     response = reader.city(ip)  # 有多种语言，我们这里主要输出英文和中文print("你查询的IP的地理位置是:")
 
     state = response.subdivisions.most_specific.names["zh-CN"]
     city = response.city.names["zh-CN"]
-    return city
+    if city[-1] != '市':
+        # print(city)
+        return city + '市'
+    else:
+        return city
 
 
 #

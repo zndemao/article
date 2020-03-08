@@ -16,7 +16,7 @@ class Local_Control():
         location = self.data.get_location()
 
         city = locad_jd_find.Locad_Find()
-        # 这个程序需要修改
+        # 这个程序需要修改。指的是不带 市
         Local_Control.city_info_list = city.query_ctiy(location[0:-1])
         Local_Control.city_info_list_len = len(Local_Control.city_info_list) // 2
         print(Local_Control.city_info_list_len)
@@ -56,6 +56,9 @@ class Local_Control():
             self.data.set_locad_scenic_image_2(file_path)
         else:
             self.data.set_locad_scenic_image_2(info_2.get('image_path'))
+        self.data.set_locad_scenic_info_1(info_1)
+        self.data.set_locad_scenic_info_2(info_2)
+
         return local_info
 
     # 点下一页

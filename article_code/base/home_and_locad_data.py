@@ -31,6 +31,8 @@ class Data(object):
     locad_scenic_introduction_1 = ''
     locad_scenic_introduction_2 = ''
     locad_scenic_introduction_3 = ''
+    locad_scenic_info_1 = []
+    locad_scenic_info_2 = []
 
     # 推荐
 
@@ -121,6 +123,18 @@ class Data(object):
 
     def set_locad_scenic_introduction_3(self):
         pass
+
+    def get_locad_scenic_info_1(self):
+        return Data.locad_scenic_info_1
+
+    def set_locad_scenic_info_1(self, locad_scenic_info_list):
+        Data.locad_scenic_info_1 = locad_scenic_info_list
+
+    def get_locad_scenic_info_2(self):
+        return Data.locad_scenic_info_2
+
+    def set_locad_scenic_info_2(self, locad_scenic_info_list):
+        Data.locad_scenic_info_2 = locad_scenic_info_list
 
     pass
 

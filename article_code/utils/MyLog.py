@@ -1,9 +1,28 @@
-import logging
-logging.basicConfig(level=10,
-         format='%(asctime)s %(filename)s[line:%(lineno)d] %(levelname)s %(message)s',
-             filename=r'text.log')      # filename 是将信息写入 text.log  文件中
-logging.debug('debug message') # 排错
-logging.info('info message') # 正常信息
-logging.warning('warning message') # 警告
-logging.error('error message') # 错误
-logging.critical('critical message') # 崩溃
+import sys
+import inspect
+
+
+def get__function_name():
+    '''获取正在运行函数(或方法)名称'''
+    return inspect.stack()[1][3]
+
+
+def fun_name():
+    '''获取正在运行函数(或方法)名称'''
+    return inspect.stack()[1][3] + ':'
+
+
+def my_code_name():
+    return __name__ + sys._getframe().f_code.co_name
+
+
+def my_print(*args, sep=' ', end='\n', file=None):
+    # name = sys._getframe().f_code.co_name
+    if True:
+        print(*args, sep=' ', end='\n', file=None)
+
+
+if __name__ == '__main__':
+    my_print(my_code_name(), 'sfsfaf' + 'adsfs')
+    # MyLog.my_print(self.__class__.__name__, MyLog.fun_name(), love)
+

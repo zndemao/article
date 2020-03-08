@@ -7,8 +7,17 @@ class User_Control():
               "recording": '0'}
     db = users_data.User_db()
 
-    # 注册
+    # 注册用户
     def user_registered(self, name, phone, password_1, password_2, mailbox):
+        '''
+        注册用户
+        :param name:用户名
+        :param phone:手机号
+        :param password_1:密码
+        :param password_2:确认密码
+        :param mailbox:邮箱
+        :return: str 注册成功
+        '''
         if password_1 != password_2:
             return '密码不一致'
         password = password_1

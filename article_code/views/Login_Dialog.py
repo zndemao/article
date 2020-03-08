@@ -9,8 +9,8 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 from distributed.utils import palette
 from PyQt5.QtCore import Qt
 from designer import home, login, registered
-from views import Registered_Dialog, Forget_Password_Dialog
-from control import user_control
+from views import Registered_Dialog, Forget_Password_Dialog, Window_app
+from user_db import user_control
 from PyQt5.QtGui import QPixmap
 
 
@@ -49,14 +49,28 @@ class Login_Dialog(QDialog):
             self.MessageBox('密码不能为空')
             # toast = '密码不能为空'
             return
-        print(phone)
+        # print(phone)
         control = user_control.User_Control()
         login = control.login(phone, password)
-        print(login)
+        # print(login)
+        if login:
+            control.set_user_info(phone)
+            # self.emit(QtCore.PYQT_SIGNAL("transfer_father"), 'login')
+            self.accept()
+            # Window_app.main_ui.login_but.setText('退出')
+            # Window_app.Window_app().login_user()
+
+            return '登陆成功'
+        else:
+            msgBox = QMessageBox(QMessageBox.NoIcon, '提示', '密码或账号有误')
+            # msgBox.setIconPixmap(QPixmap("beauty.png"))
+            msgBox.exec()
+            return '登陆失败'
+
         # msgBox = QMessageBox(QMessageBox.NoIcon, '提示', '不要意淫了，早点洗洗睡吧!')
         # msgBox.setIconPixmap(QPixmap("beauty.png"))
         # msgBox.exec()
-        self.accept()  # 接受
+        # self.accept()  # 接受
         pass
 
     # 注册
@@ -82,6 +96,8 @@ class Login_Dialog(QDialog):
         # forget_password2.show()
         # print(forget_password2)
         self.reject()
+        # 关闭登陆窗口
+        self.reject()  # 关闭窗口
         pass
 
     def MessageBox(self, text):
